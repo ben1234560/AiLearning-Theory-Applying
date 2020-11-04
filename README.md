@@ -36,19 +36,12 @@
   <li><a href='https://github.com/ben1234560/AiLearning-Theory-Applying/blob/master/%E5%BF%85%E5%A4%87%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80.md#%E7%AE%80%E5%8D%95%E9%9A%8F%E6%9C%BA%E6%8A%BD%E6%A0%B7'>简单随机抽样</a>
   <li><a href='https://github.com/ben1234560/AiLearning-Theory-Applying/blob/master/%E5%BF%85%E5%A4%87%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80.md#%E6%9E%81%E5%A4%A7%E4%BC%BC%E7%84%B6%E4%BC%B0%E8%AE%A1'>极大似然估计</a>
             </ul>
-           
-
-        </li>
-    </ul>
-</li>
+	</ul>
+	</li>
 <li><a>机器学习MachineLearning</a> 
     <ul>
         <li><a>持续更新中</a>
-            <ul>
-                    </ul>
-    </li>
-</ul>
-</li>
-</ul>
+	</ul>
+
 
 
