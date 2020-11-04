@@ -22,34 +22,33 @@
             </ul>
         </li>
         <li><a href='https://github.com/ben1234560/AiLearning-Theory-Applying/blob/master/%E5%BF%85%E5%A4%87%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80.md#%E6%B3%B0%E5%8B%92%E5%85%AC%E5%BC%8F'>泰勒公式</a>
-
-        </li>
-        <li><a>线性代数基础</a>
-            <ul>
-                <li><a href='https://github.com/ben1234560/AiLearning-Theory-Applying/blob/master/%E5%BF%85%E5%A4%87%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80.md#%E7%9F%A9%E9%98%B5%E5%92%8C%E7%89%B9%E5%BE%81'>矩阵和特征</a>
-                <li><a href='https://github.com/ben1234560/AiLearning-Theory-Applying/blob/master/%E5%BF%85%E5%A4%87%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80.md#%E5%90%91%E9%87%8F%E5%86%85%E7%A7%AF'>向量内积</a>
-  <li><a href='https://github.com/ben1234560/AiLearning-Theory-Applying/blob/master/%E5%BF%85%E5%A4%87%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80.md#svd%E7%9F%A9%E9%98%B5%E5%88%86%E8%A7%A3'>SVD矩阵分解</a>
+    </li>
+    <li><a>线性代数基础</a>
+        <ul>
+            <li><a href='https://github.com/ben1234560/AiLearning-Theory-Applying/blob/master/%E5%BF%85%E5%A4%87%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80.md#%E7%9F%A9%E9%98%B5%E5%92%8C%E7%89%B9%E5%BE%81'>矩阵和特征</a>
+            <li><a href='https://github.com/ben1234560/AiLearning-Theory-Applying/blob/master/%E5%BF%85%E5%A4%87%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80.md#%E5%90%91%E9%87%8F%E5%86%85%E7%A7%AF'>向量内积</a>
+            <li><a href='https://github.com/ben1234560/AiLearning-Theory-Applying/blob/master/%E5%BF%85%E5%A4%87%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80.md#svd%E7%9F%A9%E9%98%B5%E5%88%86%E8%A7%A3'>SVD矩阵分解</a>
             </ul>
         </li>
         <li><a>随机变量</a>
-            <ul>
+                    <ul>
                 <li><a href='https://github.com/ben1234560/AiLearning-Theory-Applying/blob/master/%E5%BF%85%E5%A4%87%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80.md#%E7%A6%BB%E6%95%A3%E5%92%8C%E8%BF%9E%E7%BB%AD%E5%9E%8B%E6%95%B0%E6%8D%AE'>离散和连续型数据</a>
   <li><a href='https://github.com/ben1234560/AiLearning-Theory-Applying/blob/master/%E5%BF%85%E5%A4%87%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80.md#%E7%AE%80%E5%8D%95%E9%9A%8F%E6%9C%BA%E6%8A%BD%E6%A0%B7'>简单随机抽样</a>
   <li><a href='https://github.com/ben1234560/AiLearning-Theory-Applying/blob/master/%E5%BF%85%E5%A4%87%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80.md#%E6%9E%81%E5%A4%A7%E4%BC%BC%E7%84%B6%E4%BC%B0%E8%AE%A1'>极大似然估计</a>
             </ul>
+           
+
         </li>
     </ul>
 </li>
-<li><a>机器学习MachineLearning</a>
+<li><a>机器学习MachineLearning</a> 
     <ul>
         <li><a>持续更新中</a>
             <ul>
-                
-            </ul>
-        </li>
-    </ul>
+                    </ul>
+    </li>
+</ul>
 </li>
 </ul>
-
 
 
