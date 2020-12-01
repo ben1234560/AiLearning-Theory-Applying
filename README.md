@@ -25,8 +25,10 @@
         </ul>
     <li><a>机器学习MachineLearning</a> 
     <ul>
-        <li><a>持续更新中</a>
+        <li><a href='https://github.com/ben1234560/AiLearning-Theory-Applying/tree/master/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AB%9E%E8%B5%9B%E5%AE%9E%E6%88%98_%E4%BC%98%E8%83%9C%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/%E5%BF%AB%E6%89%8B%E7%9F%AD%E8%A7%86%E9%A2%91%E7%94%A8%E6%88%B7%E6%B4%BB%E8%B7%83%E5%BA%A6%E5%88%86%E6%9E%90'>快手用户活跃预测（含数据集）</a>
+        <li><a href='https://github.com/ben1234560/AiLearning-Theory-Applying/tree/master/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AB%9E%E8%B5%9B%E5%AE%9E%E6%88%98_%E4%BC%98%E8%83%9C%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/%E5%B7%A5%E4%B8%9A%E5%8C%96%E5%B7%A5%E7%94%9F%E4%BA%A7%E9%A2%84%E6%B5%8B'>工业化工生产预测（含数据集）</a>
 	</ul>
+
 
 
 
