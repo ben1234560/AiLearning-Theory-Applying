@@ -20,14 +20,18 @@
             <li><a href='https://github.com/ben1234560/AiLearning-Theory-Applying/blob/master/%E5%BF%85%E5%A4%87%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80.md#%E6%A0%B8%E5%87%BD%E6%95%B0'>核函数</a>
             <li><a href='https://github.com/ben1234560/AiLearning-Theory-Applying/blob/master/%E5%BF%85%E5%A4%87%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80.md#%E7%86%B5%E5%92%8C%E6%BF%80%E6%B4%BB%E5%87%BD%E6%95%B0'>熵和激活函数</a>
             <li><a href='https://github.com/ben1234560/AiLearning-Theory-Applying/blob/master/%E5%BF%85%E5%A4%87%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80.md#%E5%9B%9E%E5%BD%92%E5%88%86%E6%9E%90'>回归分析</a>
-            <li><a href='https://github.com/ben1234560/AiLearning-Theory-Applying/blob/master/%E5%BF%85%E5%A4%87%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80.md#%E5%81%87%E8%AE%BE%E6%A3%80%E9%AA%8C'>假设检验</a>
-            <li><a href=''></a>
+            <li><a href='https://github.com/ben1234560/AiLearning-Theory-Applying/tree/master/notebook_%E5%BF%85%E5%A4%87%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/%E5%81%87%E8%AE%BE%E6%A3%80%E9%AA%8C%E7%AB%A0%E8%8A%82'>假设检验</a>
+            <li><a href='https://github.com/ben1234560/AiLearning-Theory-Applying/tree/master/notebook_%E5%BF%85%E5%A4%87%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/%E7%9B%B8%E5%85%B3%E5%88%86%E6%9E%90%E7%AB%A0%E8%8A%82'>相关分析</a>
+            <li><a href='https://github.com/ben1234560/AiLearning-Theory-Applying/tree/master/notebook_%E5%BF%85%E5%A4%87%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/%E7%9B%B8%E5%85%B3%E5%88%86%E6%9E%90%E7%AB%A0%E8%8A%82'>方差分析</a>
+            <li><a href='https://github.com/ben1234560/AiLearning-Theory-Applying/blob/master/%E5%BF%85%E5%A4%87%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80.md#kmeans%E7%AE%97%E6%B3%95'>KMEANS算法</a>
+            <li><a href='https://github.com/ben1234560/AiLearning-Theory-Applying/blob/master/%E5%BF%85%E5%A4%87%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80.md#%E8%B4%9D%E5%8F%B6%E6%96%AF%E5%88%86%E6%9E%90'>贝叶斯分析</a>
         </ul>
     <li><a>机器学习MachineLearning</a> 
     <ul>
         <li><a href='https://github.com/ben1234560/AiLearning-Theory-Applying/tree/master/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AB%9E%E8%B5%9B%E5%AE%9E%E6%88%98_%E4%BC%98%E8%83%9C%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/%E5%BF%AB%E6%89%8B%E7%9F%AD%E8%A7%86%E9%A2%91%E7%94%A8%E6%88%B7%E6%B4%BB%E8%B7%83%E5%BA%A6%E5%88%86%E6%9E%90'>快手用户活跃预测（含数据集）</a>
         <li><a href='https://github.com/ben1234560/AiLearning-Theory-Applying/tree/master/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AB%9E%E8%B5%9B%E5%AE%9E%E6%88%98_%E4%BC%98%E8%83%9C%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/%E5%B7%A5%E4%B8%9A%E5%8C%96%E5%B7%A5%E7%94%9F%E4%BA%A7%E9%A2%84%E6%B5%8B'>工业化工生产预测（含数据集）</a>
 	</ul>
+
 
 
 
