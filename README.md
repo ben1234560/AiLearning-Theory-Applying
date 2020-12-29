@@ -1,6 +1,6 @@
 # AiLearning-Theory-Applying
 
-快速上手Ai理论及应用实战：基础知识Basic knowledge、机器学习MachineLearning、深度学习DeepLearning2、PyTorch、视觉opencv、自然语言处理BERT，持续更新中
+快速上手Ai理论及应用实战：基础知识Basic knowledge、机器学习MachineLearning、深度学习DeepLearning2、PyTorch、视觉opencv、自然语言处理BERT，持续更新中。含大量注释及数据集，力求每一位能看懂并复现。
 
 
 
@@ -35,14 +35,3 @@
         <li><a href='https://github.com/ben1234560/AiLearning-Theory-Applying/tree/master/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AB%9E%E8%B5%9B%E5%AE%9E%E6%88%98_%E4%BC%98%E8%83%9C%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/%E5%B8%B8%E7%94%A8%E7%89%B9%E5%BE%81%E6%9E%84%E5%BB%BA%E6%96%B9%E6%B3%95'>常用特征构建方法（含数据集）</a>
         <li><a href='https://github.com/ben1234560/AiLearning-Theory-Applying/tree/master/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AB%9E%E8%B5%9B%E5%AE%9E%E6%88%98_%E4%BC%98%E8%83%9C%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/%E5%BB%BA%E7%AD%91%E8%83%BD%E6%BA%90%E5%88%A9%E7%94%A8%E7%8E%87%E9%A2%84%E6%B5%8B'>建筑能源利用率预测（含数据集）</a>
 	</ul>
-
-
-
-
-
-
-
-
-
-
-
