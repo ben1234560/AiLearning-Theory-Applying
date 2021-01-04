@@ -149,7 +149,7 @@ Multi-Head架构图如下
 #### Decoder
 
 - Attention计算不同：只需要用Q去查encode的K,V即可
-- 加入MASK机制：遮挡部分值，不使用它，比如内积会将每个相乘相加，而在计算内积的过程不能让它知道全部信息，比如下面的I am a student，遮挡掉student，否则相当于透题。
+- 加入MASK机制：遮挡部分值，不使用它，比如内积会将每个相乘相加，而在计算内积的过程不能让它知道全部信息，比如下面的I am a student，遮挡掉student，否则相当于透题，相当于分类中训练的标签。
 
 ![1609748548046](assets/1609748548046.png)
 
@@ -182,11 +182,39 @@ Multi-Head架构图如下
 
 **Decode端**
 
-- MASK机制：遮挡掉部分，不使用后面的结果；
+- MASK机制：遮挡掉部分，不使用后面的结果，相当于分类中训练的标签；
 - 获取K,V的结果；
 - Nx：N层堆叠；
 - Linear：得到所有的编码，Linear成向量；
 - Softmax：将向量进行分类；
 
-这就是Transformer的整体结构。
+这就是Transformer的整体结构。而Transformer和BERT的关系是
+
+
+
+#### BERT模型训练方法
+
+- Bidirectonal Encoder Representations from Transformers
+- transformer的encoder部分
+- 并不需要标签，有语料就能训练了
+
+也就是下图的部分
+
+![1609751626545](assets/1609751626545.png)
+
+如何训练BERT
+
+- 方法1：句子中有15%的词汇被随机mask掉
+- 较给模型去预测被mask的是什么
+- 词语的可能性太多了，中文一般是子
+- 如果BERT训练的向量好，那分类自然好
+
+![1609751713233](assets/1609751713233.png)
+
+> MASK的部分就相当于分类中的训练标签
+
+- 方法二：预测两个句子是否应该连在一起
+- [seq]：两个句子之前的连接符，[cls]：表示要做分类的向量
+
+![1609751917598](assets/1609751917598.png)
 
