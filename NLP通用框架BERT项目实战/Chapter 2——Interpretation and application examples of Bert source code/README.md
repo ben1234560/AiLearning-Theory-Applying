@@ -56,3 +56,48 @@ test.csv
 
 推荐的pip方式是：pip --default-timeout=100 install 库名字 -i http://pypi.douban.com/simple/ --trusted-host pypi.douban.com
 
+
+
+#### 创建环境
+
+~~~
+pip install tensorflow==1.13.2 -i https://pypi.douban.com/simple
+
+pip install numpy==1.16 -i https://pypi.douban.com/simple
+~~~
+
+
+
+参数
+
+~~~
+-task_name=MRPC -do_train=true -do_eval=true -data_dir=../GLUE/glue_data/MRPC -vocab_file=../GLUE/BERT_BASE_DIR/uncased_L-12_H-768_A-12/vocab.txt -bert_config_file=../GLUE/BERT_BASE_DIR/uncased_L-12_H-768_A-12/bert_config.json -init_checkpoint=../GLUE/BERT_BASE_DIR/uncased_L-12_H-768_A-12/bert_model.ckpt -max_seq_length=128 -learning_rate=2e-5 -num_train_epochs=3.0 -output_dir=../GLUE/output/
+~~~
+
+
+
+报错及解决办法
+
+class AdamWeightDecayOptimizer(tf.optimizers.Optimizer): AttributeError: module 'tensorflow' has no attribute 'optimizers'
+
+> 如下内容
+
+~~~
+tf.optimizers.Optimizer改为tf.keras.optimizers.Optimizer
+~~~
+
+
+
+super(AdamWeightDecayOptimizer, self).__init__(False, name) TypeError: __ini
+
+~~~
+super(AdamWeightDecayOptimizer, self).__init__(False, name)
+    改成
+super(AdamWeightDecayOptimizer, self).__init__()
+~~~
+
+
+
+tensorflow/core/framework/op_kernel.cc:1401] OP_REQUIRES failed at save_restore_v2_ops.cc:109 : Not found: Failed to create a NewWriteableFile:
+
+> 路径过长，需要将整个项目移动到某盘下。要求满足：1.段路径，2.全英文
