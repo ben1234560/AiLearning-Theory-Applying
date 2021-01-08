@@ -26,7 +26,7 @@
             <li><a href='https://github.com/ben1234560/AiLearning-Theory-Applying/blob/master/%E5%BF%85%E5%A4%87%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80.md#kmeans%E7%AE%97%E6%B3%95'>KMEANS算法</a>
             <li><a href='https://github.com/ben1234560/AiLearning-Theory-Applying/blob/master/%E5%BF%85%E5%A4%87%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80.md#%E8%B4%9D%E5%8F%B6%E6%96%AF%E5%88%86%E6%9E%90'>贝叶斯分析</a>
         </ul>
-    <li><a>机器学习MachineLearning</a> 
+    <li><a href='https://github.com/ben1234560/AiLearning-Theory-Applying/tree/master/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AB%9E%E8%B5%9B%E5%AE%9E%E6%88%98_%E4%BC%98%E8%83%9C%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88'>机器学习MachineLearning</a> 
     <ul>
         <li><a href='https://github.com/ben1234560/AiLearning-Theory-Applying/tree/master/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AB%9E%E8%B5%9B%E5%AE%9E%E6%88%98_%E4%BC%98%E8%83%9C%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/%E5%BF%AB%E6%89%8B%E7%9F%AD%E8%A7%86%E9%A2%91%E7%94%A8%E6%88%B7%E6%B4%BB%E8%B7%83%E5%BA%A6%E5%88%86%E6%9E%90'>快手用户活跃预测（含数据集）</a>
         <li><a href='https://github.com/ben1234560/AiLearning-Theory-Applying/tree/master/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AB%9E%E8%B5%9B%E5%AE%9E%E6%88%98_%E4%BC%98%E8%83%9C%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/%E5%B7%A5%E4%B8%9A%E5%8C%96%E5%B7%A5%E7%94%9F%E4%BA%A7%E9%A2%84%E6%B5%8B'>工业化工生产预测（含数据集）</a>
@@ -35,3 +35,15 @@
         <li><a href='https://github.com/ben1234560/AiLearning-Theory-Applying/tree/master/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AB%9E%E8%B5%9B%E5%AE%9E%E6%88%98_%E4%BC%98%E8%83%9C%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/%E5%B8%B8%E7%94%A8%E7%89%B9%E5%BE%81%E6%9E%84%E5%BB%BA%E6%96%B9%E6%B3%95'>常用特征构建方法（含数据集）</a>
         <li><a href='https://github.com/ben1234560/AiLearning-Theory-Applying/tree/master/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AB%9E%E8%B5%9B%E5%AE%9E%E6%88%98_%E4%BC%98%E8%83%9C%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/%E5%BB%BA%E7%AD%91%E8%83%BD%E6%BA%90%E5%88%A9%E7%94%A8%E7%8E%87%E9%A2%84%E6%B5%8B'>建筑能源利用率预测（含数据集）</a>
 	</ul>
+    <li><a href='https://github.com/ben1234560/AiLearning-Theory-Applying/tree/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8'>深度学习入门DeepLearning</a> 
+        <ul>
+            <li><a href='https://github.com/ben1234560/AiLearning-Theory-Applying/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8/%E7%AC%AC%E4%B8%80%E7%AB%A0%E2%80%94%E2%80%94%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%BF%85%E5%A4%87%E7%9F%A5%E8%AF%86%E7%82%B9.md'>深度学习必备知识点</a>
+            <li><a href='https://github.com/ben1234560/AiLearning-Theory-Applying/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8/%E7%AC%AC%E4%BA%8C%E7%AB%A0%E2%80%94%E2%80%94%E8%B5%B0%E8%BF%9B%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E4%B8%96%E7%95%8C%20%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E6%A8%A1%E5%9E%8B.md'>走进深度学习的世界 神经网络模型</a>
+            <li><a href='https://github.com/ben1234560/AiLearning-Theory-Applying/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8/%E7%AC%AC%E4%B8%89%E7%AB%A0%E2%80%94%E2%80%94%E5%8D%B7%E7%A7%AF%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C.md'>卷积神经网络</a>
+            <li><a href='https://github.com/ben1234560/AiLearning-Theory-Applying/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8/%E7%AC%AC%E5%9B%9B%E7%AB%A0%E2%80%94%E2%80%94%E9%80%92%E5%BD%92%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E4%B8%8E%E8%AF%8D%E5%90%91%E9%87%8F%E5%8E%9F%E7%90%86%E8%A7%A3%E8%AF%BB.md'>递归神经网络与词向量原理解读</a>
+        </ul>
+
+
+
+
+
