@@ -512,3 +512,90 @@ def embedding_postprocessor(input_tensor,
   return output
 ~~~
 
+
+
+#### mask机制
+
+~~~python
+class BertModel(object):
+  """BERT model ("Bidirectional Encoder Representations from Transformers").
+
+  Example usage:
+
+  ```python
+  # Already been converted into WordPiece token ids
+  input_ids = tf.constant([[31, 51, 99], [15, 5, 0]])
+  input_mask = tf.constant([[1, 1, 1], [1, 1, 0]])
+  token_type_ids = tf.constant([[0, 0, 1], [0, 2, 0]])
+
+  config = modeling.BertConfig(vocab_size=32000, hidden_size=512,
+    num_hidden_layers=8, num_attention_heads=6, intermediate_size=1024)
+
+  model = modeling.BertModel(config=config, is_training=True,
+    input_ids=input_ids, input_mask=input_mask, token_type_ids=token_type_ids)
+
+  label_embeddings = tf.get_variable(...)
+  pooled_output = model.get_pooled_output()
+  logits = tf.matmul(pooled_output, label_embeddings)
+  ...
+  ```
+  """
+
+  def __init__(self,
+               config,
+               is_training,
+               input_ids,
+               input_mask=None,
+               token_type_ids=None,
+               use_one_hot_embeddings=False,
+               scope=None):
+    """Constructor for BertModel.
+
+    Args:
+      config: `BertConfig` instance.
+      is_training: bool. true for training model, false for eval model. Controls
+        whether dropout will be applied.
+      input_ids: int32 Tensor of shape [batch_size, seq_length].
+      input_mask: (optional) int32 Tensor of shape [batch_size, seq_length].
+      token_type_ids: (optional) int32 Tensor of shape [batch_size, seq_length].
+      use_one_hot_embeddings: (optional) bool. Whether to use one-hot word
+        embeddings or tf.embedding_lookup() for the word embeddings.
+      scope: (optional) variable scope. Defaults to "bert".
+
+    Raises:
+      ValueError: The config is invalid or one of the input tensor shapes
+        is invalid.
+    """
+
+      with tf.variable_scope("encoder"):
+        # This converts a 2D mask of shape [batch_size, seq_length] to a 3D
+        # mask of shape [batch_size, seq_length, seq_length] which is used
+        # for the attention scores.
+        attention_mask = create_attention_mask_from_input_mask(
+            input_ids, input_mask)  # 创建mask矩阵
+        # 比如一个矩阵:[45，54，85，...，0，0，0]
+        #             [12，31，11，...，0，0，0]
+        #             [91，51，18，...，12，21，0]
+        # 后面长度不足的都补0，mask后，有信息的变1，无信息的变0
+        # [1，1，1，...，0，0，0]
+        # [1，1，1，...，0，0，0]
+        # [1，1，1，...，1，1，0]
+        # 不管要知道二维的，还要知道三维的，如开头这句话This converts a 2D mask of shape [batch_size, seq_length] to a 3D
+        # 把里面的维度再分一个维度，如左上角的45
+        # [1，1，1，...，0，0，0] ， 这里的1是指45能看到的信息是那些，有的则为1，并与其计算，为0则不与其进行计算
+        # Run the stacked transformer.
+        # `sequence_output` shape = [batch_size, seq_length, hidden_size].
+        self.all_encoder_layers = transformer_model(   # Ctrl点击跳转transformer_model
+            input_tensor=self.embedding_output,  # 3种embedding
+            attention_mask=attention_mask,  # 上面的需不需要计算的0，1，1则是要计算
+            hidden_size=config.hidden_size,  # 特征结果
+            num_hidden_layers=config.num_hidden_layers,  # Transformer中的隐层神经元个数
+            num_attention_heads=config.num_attention_heads,  # 多头机制，在bert的图解中有讲解
+            intermediate_size=config.intermediate_size,  # 全连接层神经元个数
+            intermediate_act_fn=get_activation(config.hidden_act),
+            hidden_dropout_prob=config.hidden_dropout_prob,
+            attention_probs_dropout_prob=config.attention_probs_dropout_prob,
+            initializer_range=config.initializer_range,
+            do_return_all_layers=True)
+~~~
+
