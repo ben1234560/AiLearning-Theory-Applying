@@ -18,7 +18,8 @@
 
 ![1609826290795](assets/1609826290795.png)
 
-> 下载一个数据集，使用脚本命令下载，可能需要翻墙，可以访问我的百度云盘进行下载（待补充）。这里只用到MRPC
+> 下载一个数据集，使用脚本命令下载，可能需要翻墙，可以访问我的云盘进行下载。链接：https://pan.baidu.com/s/18vPGelYCXGqp5OCWZWz36A 
+> 提取码：de0f。这里只用到MRPC
 
 
 
@@ -128,4 +129,19 @@ tensorflow/core/framework/op_kernel.cc:1401] OP_REQUIRES failed at save_restore_
 
 #### 备选方案
 
-一直起不来的，可以直接使用我改好的代码文件（待补充）
+一直起不来的，可以直接使用我改好的代码文件，链接：https://pan.baidu.com/s/18vPGelYCXGqp5OCWZWz36A 
+提取码：de0f
+
+我的路径如下：
+
+![1610161459549](assets/1610161459549.png)
+
+![1610161435131](assets/1610161435131.png)
+
+![1610161444607](assets/1610161444607.png)
+
+![1610161474977](assets/1610161474977.png)
+
+![1610161499158](assets/1610161499158.png)
+
+output是自动生成的不需要管
