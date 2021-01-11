@@ -55,6 +55,28 @@ test.csv
 
 #### 创建环境
 
+settings一个虚拟环境，我使用的是pycharm
+
+![1610378141133](assets/1610378141133.png)
+
+我默认你是下载了某个IDE，至少是懂python的，Show All
+
+![1610378199764](assets/1610378199764.png)
+
+点击加号
+
+![1610378235115](assets/1610378235115.png)
+
+添加一个conda或者普通的python都可以，因为conda是专门做数据的，所以我选了conda，其实没什么区别
+
+![1610378282775](assets/1610378282775.png)
+
+点击OK即可。
+
+![1610378368510](assets/1610378368510.png)
+
+> 输入如下命令，进行安装
+
 ~~~
 # python3.7，我的是window
 pip install tensorflow==1.13.2 -i https://pypi.douban.com/simple
