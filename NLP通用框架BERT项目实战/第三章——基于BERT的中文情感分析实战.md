@@ -6,7 +6,9 @@
 
 ![1610163467782](assets/1610163467782.png)
 
-![1610163998069](assets/1610163998069.png)
+![1610376739912](assets/1610376739912.png)
+
+> 可以理解为0是一般，1是好，2是差
 
 我们使用的是Google官方开源的中文BERT预训练模型
 
@@ -148,15 +150,16 @@ class MyDataProcessor(DataProcessor):
 
   def get_test_examples(self, data_dir):
     """Gets a collection of `InputExample`s for prediction."""
-    file_path = os.path.join(data_dir, 'test.csv')
+    file_path = os.path.join(data_dir, 'test_sentiment.txt')  # 我们直接用验证集来输出结果
+    print(file_path)
     f = open(file_path, 'r', encoding='utf-8')
     test_data = []
     index = 0
     for line in f.readlines():
         guid = "test-%d" % index
         line = line.replace('\n', '').split('\t')
-        text_a = tokenization.convert_to_unicode(str(line[0]))
-        label = str(line[1])
+        text_a = tokenization.convert_to_unicode(str(line[1]))
+        label = '0'  # 这里的label随机使用即可，只是为了传入
         test_data.append(
             InputExample(guid=guid, text_a=text_a, text_b=None, label=label))
         index += 1
@@ -235,3 +238,81 @@ def main(_):
 
 ![1610334464000](assets/1610334464000.png)
 
+
+
+最终模型结果
+
+![1610372590658](assets/1610372590658.png)
+
+![1610376941475](assets/1610376941475.png)
+
+
+
+#### 预测结果并输出
+
+进行预测的参数
+
+~~~python
+-task_name=my
+-do_predict=true
+-data_dir=data
+-vocab_file=../GLUE/BERT_BASE_DIR/chinese_L-12_H-768_A-12/vocab.txt
+-bert_config_file=../GLUE/BERT_BASE_DIR/chinese_L-12_H-768_A-12/bert_config.json
+-init_checkpoint=my_model
+-max_seq_length=70
+-output_dir=my_model_predict
+~~~
+
+> init_checkpoint：使用的初始化参数已经是我们训练过的了
+
+RUN完后有如下文件
+
+![1610377383372](assets/1610377383372.png)
+
+打开与原文件对比，是准确的，不过现在是概率，我们转成值
+
+![1610378614228](assets/1610378614228.png)
+
+
+
+添加get_results.py
+
+~~~python
+import os
+import pandas as pd
+
+
+if __name__ == '__main__':
+    path = "my_model_predict"
+    pd_all = pd.read_csv(os.path.join(path, "test_results.tsv"), sep='\t', header=None)
+
+    data = pd.DataFrame(columns=['polarity'])
+    print(pd_all.shape)
+
+    for index in pd_all.index:
+        neutral_score = pd_all.loc[index].values[0]
+        positive_score = pd_all.loc[index].values[1]
+        negative_score = pd_all.loc[index].values[2]
+
+        if max(neutral_score, positive_score, negative_score) == neutral_score:
+            data.loc[index+1] = ["0"]
+        elif max(neutral_score, positive_score, negative_score) == positive_score:
+            data.loc[index+1] = ["1"]
+        else:
+            data.loc[index+1] = ["2"]
+
+    data.to_csv(os.path.join(path, "pre_sample.tsv"), sep='\t')
+
+~~~
+
+
+
+运行完后，同个目录下会出现pre_sample.tsv文件，对比结果
+
+![1610379269689](assets/1610379269689.png)
+
+> 正确
+
+
+
+至此，我们完成了中文情感分类实战，写了函数训练、验证，并输出预测结果，BERT也算正式使用了起来，给在做的你点个赞👍。
