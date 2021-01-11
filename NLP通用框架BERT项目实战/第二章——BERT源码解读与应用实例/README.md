@@ -87,7 +87,31 @@ pip install numpy==1.16 -i https://pypi.douban.com/simple
 -output_dir=../GLUE/output/
 ~~~
 
-> 配置完成后，run该文件即可
+> task_name：运行的模块，在main里指定了名字对应的类
+>
+> do_train：是否训练
+>
+> do_eval：是否验证
+>
+> data_dir：数据地址
+>
+> vocab_file：词库表
+>
+> bert_config_file：bert参数
+>
+> init_checkpoint：初始化参数
+>
+> max_seq_length：最长字符限制
+>
+> train_batch_size：训练次数
+>
+> learning_rate：学习率
+>
+> num_train_epochs：循环训练次数
+>
+> output_dir：输出路径
+
+配置完成后，run该文件即可
 
 ![1610000183063](assets/1610000183063.png)
 
