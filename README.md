@@ -1,6 +1,6 @@
 # AiLearning-Theory-Applying
 
-快速上手Ai理论及应用实战：基础知识Basic knowledge、机器学习MachineLearning、深度学习DeepLearning2、PyTorch、视觉opencv、自然语言处理BERT，持续更新中。含大量注释及数据集，力求每一位能看懂并复现。
+快速上手Ai理论及应用实战：基础知识Basic knowledge、机器学习MachineLearning、深度学习DeepLearning2、自然语言处理BERT，持续更新中。含大量注释及数据集，力求每一位能看懂并复现。
 
 
 
@@ -41,7 +41,25 @@
             <li><a href='https://github.com/ben1234560/AiLearning-Theory-Applying/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8/%E7%AC%AC%E4%BA%8C%E7%AB%A0%E2%80%94%E2%80%94%E8%B5%B0%E8%BF%9B%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E4%B8%96%E7%95%8C%20%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E6%A8%A1%E5%9E%8B.md'>走进深度学习的世界 神经网络模型</a>
             <li><a href='https://github.com/ben1234560/AiLearning-Theory-Applying/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8/%E7%AC%AC%E4%B8%89%E7%AB%A0%E2%80%94%E2%80%94%E5%8D%B7%E7%A7%AF%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C.md'>卷积神经网络</a>
             <li><a href='https://github.com/ben1234560/AiLearning-Theory-Applying/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8/%E7%AC%AC%E5%9B%9B%E7%AB%A0%E2%80%94%E2%80%94%E9%80%92%E5%BD%92%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E4%B8%8E%E8%AF%8D%E5%90%91%E9%87%8F%E5%8E%9F%E7%90%86%E8%A7%A3%E8%AF%BB.md'>递归神经网络与词向量原理解读</a>
+            <li><a href='https://github.com/ben1234560/AiLearning-Theory-Applying/tree/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8/%E7%AC%AC%E4%BA%94%E7%AB%A0%E2%80%94%E2%80%94LSTM%E7%BD%91%E7%BB%9C%E6%9E%B6%E6%9E%84%E4%B8%8E%E6%83%85%E6%84%9F%E5%88%86%E6%9E%90%E5%BA%94%E7%94%A8%E5%AE%9E%E4%BE%8B'>LSTM网络架构与情感分析应用实例</a>
         </ul>
+        <li><a href='https://github.com/ben1234560/AiLearning-Theory-Applying/tree/master/NLP%E9%80%9A%E7%94%A8%E6%A1%86%E6%9E%B6BERT%E9%A1%B9%E7%9B%AE%E5%AE%9E%E6%88%98'>NLP通用框架BERT项目实战</a>
+        <ul>
+            <li><a href='https://github.com/ben1234560/AiLearning-Theory-Applying/blob/master/NLP%E9%80%9A%E7%94%A8%E6%A1%86%E6%9E%B6BERT%E9%A1%B9%E7%9B%AE%E5%AE%9E%E6%88%98/%E7%AC%AC%E4%B8%80%E7%AB%A0%E2%80%94%E2%80%94NLP%E9%80%9A%E7%94%A8%E6%A1%86%E6%9E%B6BERT%E5%8E%9F%E7%90%86%E8%A7%A3%E8%AF%BB.md'>NLP通用框架BERT原理解读</a>
+            <li><a href='https://github.com/ben1234560/AiLearning-Theory-Applying/tree/master/NLP%E9%80%9A%E7%94%A8%E6%A1%86%E6%9E%B6BERT%E9%A1%B9%E7%9B%AE%E5%AE%9E%E6%88%98/%E7%AC%AC%E4%BA%8C%E7%AB%A0%E2%80%94%E2%80%94BERT%E6%BA%90%E7%A0%81%E8%A7%A3%E8%AF%BB%E4%B8%8E%E5%BA%94%E7%94%A8%E5%AE%9E%E4%BE%8B'>BERT源码解读与应用实例</a>
+            <li><a href='https://github.com/ben1234560/AiLearning-Theory-Applying/blob/master/NLP%E9%80%9A%E7%94%A8%E6%A1%86%E6%9E%B6BERT%E9%A1%B9%E7%9B%AE%E5%AE%9E%E6%88%98/%E7%AC%AC%E4%B8%89%E7%AB%A0%E2%80%94%E2%80%94%E5%9F%BA%E4%BA%8EBERT%E7%9A%84%E4%B8%AD%E6%96%87%E6%83%85%E6%84%9F%E5%88%86%E6%9E%90%E5%AE%9E%E6%88%98.md'>基于BERT的中文情感分析实战.md</a>
+        </ul>
+
+
+
+
+
+
+
+
+
+
+
 
 
 
