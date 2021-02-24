@@ -16,8 +16,11 @@ test_data = data.drop(train_data.index)
 input_param_name_1 = 'Economy..GDP.per.Capita.'
 input_param_name_2 = 'Freedom'
 output_param_name = 'Happiness.Score'
-
+# 双特征的loss为：0.08517538069974877
 x_train = train_data[[input_param_name_1, input_param_name_2]].values
+# 全特征的loss为：0.0019415807477718364
+# feat_list = list(train_data.columns.drop(['Happiness.Score','Country']))
+# x_train = train_data[feat_list].values
 y_train = train_data[[output_param_name]].values
 
 x_test = test_data[[input_param_name_1, input_param_name_2]].values
