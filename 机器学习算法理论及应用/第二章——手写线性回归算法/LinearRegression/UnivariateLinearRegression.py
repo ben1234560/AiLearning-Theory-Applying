@@ -41,3 +41,18 @@ plt.xlabel('Iteration')
 plt.ylabel('Cost')
 plt.title('GD')
 plt.show()
+
+# 测试线性回归模型
+predictions_num = 100  # 预测100个
+# 拿最大和最小值画一条线
+x_predictions = np.linspace(x_train.min(), x_train.max(), predictions_num).reshape(predictions_num, 1)
+y_predictions = linear_regression.predict(x_predictions)
+
+plt.scatter(x_train, y_train, label='Train data')
+plt.scatter(x_test, y_test, label='Test data')
+plt.plot(x_predictions, y_predictions, 'r', label='Prediction')
+plt.xlabel(input_param_name)
+plt.ylabel(output_param_name)
+plt.title('Happy')
+plt.legend()
+plt.show()
