@@ -1,5 +1,6 @@
 import numpy as np
 
+
 def generate_sinusoids(dataset, sinusoid_degree):
     """
     sin(x).
