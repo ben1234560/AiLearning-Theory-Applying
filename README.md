@@ -48,7 +48,19 @@
             <li><a href='https://github.com/ben1234560/AiLearning-Theory-Applying/blob/master/NLP%E9%80%9A%E7%94%A8%E6%A1%86%E6%9E%B6BERT%E9%A1%B9%E7%9B%AE%E5%AE%9E%E6%88%98/%E7%AC%AC%E4%B8%80%E7%AB%A0%E2%80%94%E2%80%94NLP%E9%80%9A%E7%94%A8%E6%A1%86%E6%9E%B6BERT%E5%8E%9F%E7%90%86%E8%A7%A3%E8%AF%BB.md'>NLP通用框架BERT原理解读</a>
             <li><a href='https://github.com/ben1234560/AiLearning-Theory-Applying/tree/master/NLP%E9%80%9A%E7%94%A8%E6%A1%86%E6%9E%B6BERT%E9%A1%B9%E7%9B%AE%E5%AE%9E%E6%88%98/%E7%AC%AC%E4%BA%8C%E7%AB%A0%E2%80%94%E2%80%94BERT%E6%BA%90%E7%A0%81%E8%A7%A3%E8%AF%BB%E4%B8%8E%E5%BA%94%E7%94%A8%E5%AE%9E%E4%BE%8B'>BERT源码解读与应用实例</a>
             <li><a href='https://github.com/ben1234560/AiLearning-Theory-Applying/blob/master/NLP%E9%80%9A%E7%94%A8%E6%A1%86%E6%9E%B6BERT%E9%A1%B9%E7%9B%AE%E5%AE%9E%E6%88%98/%E7%AC%AC%E4%B8%89%E7%AB%A0%E2%80%94%E2%80%94%E5%9F%BA%E4%BA%8EBERT%E7%9A%84%E4%B8%AD%E6%96%87%E6%83%85%E6%84%9F%E5%88%86%E6%9E%90%E5%AE%9E%E6%88%98.md'>基于BERT的中文情感分析实战.md</a>
+        </ul> 
+   <li><a href='https://github.com/ben1234560/AiLearning-Theory-Applying/tree/master/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AE%97%E6%B3%95%E5%8E%9F%E7%90%86%E5%8F%8A%E6%8E%A8%E5%AF%BC'>机器学习算法原理及推导</a>
+        <ul>
+            <li><a href='https://github.com/ben1234560/AiLearning-Theory-Applying/tree/master/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AE%97%E6%B3%95%E5%8E%9F%E7%90%86%E5%8F%8A%E6%8E%A8%E5%AF%BC/%E6%9D%8E%E8%88%AA%E2%80%94%E2%80%94%E7%BB%9F%E8%AE%A1%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95'>李航——统计学习方法</a>
+            <li><a href='https://github.com/ben1234560/AiLearning-Theory-Applying/tree/master/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AE%97%E6%B3%95%E5%8E%9F%E7%90%86%E5%8F%8A%E6%8E%A8%E5%AF%BC/%E6%9D%8E%E5%AE%8F%E6%AF%85%E2%80%94%E2%80%94%E5%BC%82%E5%B8%B8%E6%A3%80%E6%B5%8B'>李宏毅——异常检测</a>
         </ul>
+
+
+
+
+
+
+
 
 
 
