@@ -56,6 +56,10 @@
         </ul>
 
 
+### License
+
+本文使用的许可见 [LICENSE](https://github.com/ben1234560/AiLearning-Theory-Applying/blob/master/LICENSE)
+
 
 
 
