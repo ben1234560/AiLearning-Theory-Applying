@@ -14,7 +14,11 @@
 
 持续更新中...
 
-### How to run the code
+### Data
+
+由于滴滴数据保密协议，博主也无法找到可开放数据及数据地址，故无法提供。
+
+### Model
 
 - DCN模型
 - WDR模型
@@ -33,4 +37,5 @@
 
 - 数据来自滴滴出行，英文（Data source: Didi Chuxing），数据出处：[https://gaia.didichuxing.com](https://gaia.didichuxing.com/)
 - 代码属于公司所有，不能提供最优代码
+- 感谢[@xbder](https://github.com/xbder)、[@AiIsBetter](https://github.com/AiIsBetter)
 
