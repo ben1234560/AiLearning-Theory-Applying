@@ -56,7 +56,7 @@
 
 
 
-### 5. 推荐工具
+### 5. 推荐服务器
 
 - [智能钛Notebook-2.4.0-tf](https://console.cloud.tencent.com/tione/notebook/instance)
 - [腾讯云服务器](https://console.cloud.tencent.com/cvm/instance/index)
