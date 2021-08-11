@@ -1,4 +1,10 @@
-# README
+# 2021滴滴预估到达时间大赛
+
+[竞赛地址](https://www.biendata.xyz/competition/didi-eta/)
+
+持续更新中...
+
+
 
 **7th/Top1%，提供答疑**
 
@@ -8,9 +14,7 @@
 
 ![1628602545539](assets/1628602545539.png)
 
-[竞赛地址](https://www.biendata.xyz/competition/didi-eta/)
 
-持续更新中...
 
 ### 1.解题思路
 
