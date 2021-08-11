@@ -26,6 +26,10 @@
 
 ### Features
 
+![1628670345575](assets/1628670345575.png)
+
+![1628670144983](assets/1628670144983.png)
+
 - max_order_xt：head级别的特征，如同一sample_eta、distinct等
 - max_170_link_sqe_for_order：link序列特征，如右格式：[link_id_1, link_id_3, link_id_20...]
 - cross_data_dir：cross序列特征
@@ -37,6 +41,8 @@
 - arrival_sqe_data_dir：到达时刻的序列特征，提供给DCN的T模型进行蒸馏给S模型
 - pre_arrival_sqe_dir：利用树模型预测的到达时刻特征
 - zsl_link_data_dir：link统计特征，不同人构建
+
+
 
 ### Model
 
