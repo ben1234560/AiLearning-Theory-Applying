@@ -16,7 +16,7 @@
 
 [预估到达时间解题思路.pdf](https://github.com/ben1234560/AiLearning-Theory-Applying/blob/master/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AB%9E%E8%B5%9B%E5%AE%9E%E6%88%98_%E4%BC%98%E8%83%9C%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/%E6%BB%B4%E6%BB%B4%E2%80%94%E2%80%94%E9%A2%84%E4%BC%B0%E5%88%B0%E8%BE%BE%E6%97%B6%E9%97%B4/%E9%A2%84%E4%BC%B0%E5%88%B0%E8%BE%BE%E6%97%B6%E9%97%B4%E8%A7%A3%E9%A2%98%E6%80%9D%E8%B7%AF.pdf)
 
-<img src="assets/1628668115968.png" width="300" height="200" align="middle" />
+<img src="assets/1628668115968.png" width="800" height="600" align="middle" />
 
 
 
