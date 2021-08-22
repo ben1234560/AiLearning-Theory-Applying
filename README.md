@@ -33,7 +33,7 @@
         <li><a href='https://github.com/ben1234560/AiLearning-Theory-Applying/tree/master/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AB%9E%E8%B5%9B%E5%AE%9E%E6%88%98_%E4%BC%98%E8%83%9C%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/%E6%99%BA%E6%85%A7%E5%9F%8E%E5%B8%82-%E9%81%93%E8%B7%AF%E9%80%9A%E8%A1%8C%E6%97%B6%E9%97%B4%E9%A2%84%E6%B5%8B'>智慧城市-道路通行时间预测（含数据集）</a>
         <li><a href='https://github.com/ben1234560/AiLearning-Theory-Applying/tree/master/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AB%9E%E8%B5%9B%E5%AE%9E%E6%88%98_%E4%BC%98%E8%83%9C%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/%E5%BB%BA%E7%AD%91%E8%83%BD%E6%BA%90%E5%88%A9%E7%94%A8%E7%8E%87%E9%A2%84%E6%B5%8B'>建筑能源利用率预测（含数据集）</a>
 		<li><a href='https://github.com/ben1234560/AiLearning-Theory-Applying/tree/master/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AB%9E%E8%B5%9B%E5%AE%9E%E6%88%98_%E4%BC%98%E8%83%9C%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/%E5%BF%AB%E6%89%8B%E7%9F%AD%E8%A7%86%E9%A2%91%E7%94%A8%E6%88%B7%E6%B4%BB%E8%B7%83%E5%BA%A6%E5%88%86%E6%9E%90'>快手用户活跃预测（含数据集）</a>
-        <li><a href='https://github.com/ben1234560/AiLearning-Theory-Applying/tree/master/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AB%9E%E8%B5%9B%E5%AE%9E%E6%88%98_%E4%BC%98%E8%83%9C%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/Indoor%20Location%20%26%20Navigation'>建筑能源利用率预测（数据集在kaggle）</a>
+        <li><a href='https://github.com/ben1234560/AiLearning-Theory-Applying/tree/master/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AB%9E%E8%B5%9B%E5%AE%9E%E6%88%98_%E4%BC%98%E8%83%9C%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/Indoor%20Location%20%26%20Navigation'>Indoor Location & Navigation（数据集在kaggle）</a>
         <li><a href='https://github.com/ben1234560/AiLearning-Theory-Applying/tree/master/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AB%9E%E8%B5%9B%E5%AE%9E%E6%88%98_%E4%BC%98%E8%83%9C%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/%E6%BB%B4%E6%BB%B4%E2%80%94%E2%80%94%E9%A2%84%E4%BC%B0%E5%88%B0%E8%BE%BE%E6%97%B6%E9%97%B4'>滴滴——预估到达时间（暂无）</a>
         <li><a href='https://github.com/ben1234560/AiLearning-Theory-Applying/tree/master/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AB%9E%E8%B5%9B%E5%AE%9E%E6%88%98_%E4%BC%98%E8%83%9C%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%AE%9E%E6%88%98%E5%B0%8F%E9%A1%B9%E7%9B%AE'>机器学习实战小项目（含数据集）</a>
 	</ul>
@@ -56,6 +56,7 @@
             <li><a href='https://github.com/ben1234560/AiLearning-Theory-Applying/tree/master/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AE%97%E6%B3%95%E5%8E%9F%E7%90%86%E5%8F%8A%E6%8E%A8%E5%AF%BC/%E6%9D%8E%E8%88%AA%E2%80%94%E2%80%94%E7%BB%9F%E8%AE%A1%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95'>李航——统计学习方法</a>
             <li><a href='https://github.com/ben1234560/AiLearning-Theory-Applying/tree/master/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AE%97%E6%B3%95%E5%8E%9F%E7%90%86%E5%8F%8A%E6%8E%A8%E5%AF%BC/%E6%9D%8E%E5%AE%8F%E6%AF%85%E2%80%94%E2%80%94%E5%BC%82%E5%B8%B8%E6%A3%80%E6%B5%8B'>李宏毅——异常检测</a>
         </ul>
+
 
 
 
