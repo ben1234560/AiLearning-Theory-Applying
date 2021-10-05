@@ -18,7 +18,7 @@
 
 ### 1.解题思路
 
-[预估到达时间解题思路.pdf](https://github.com/ben1234560/AiLearning-Theory-Applying/blob/master/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AB%9E%E8%B5%9B%E5%AE%9E%E6%88%98_%E4%BC%98%E8%83%9C%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/%E6%BB%B4%E6%BB%B4%E2%80%94%E2%80%94%E9%A2%84%E4%BC%B0%E5%88%B0%E8%BE%BE%E6%97%B6%E9%97%B4/%E9%A2%84%E4%BC%B0%E5%88%B0%E8%BE%BE%E6%97%B6%E9%97%B4%E8%A7%A3%E9%A2%98%E6%80%9D%E8%B7%AF.pdf)
+[预估到达时间解题思路.pdf](https://github.com/ben1234560/AiLearning-Theory-Applying/blob/master/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AB%9E%E8%B5%9B%E5%AE%9E%E6%88%98_%E4%BC%98%E8%83%9C%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/ACM%20SIGSPATIAL%202021%20GISCUP/%E9%A2%84%E4%BC%B0%E5%88%B0%E8%BE%BE%E6%97%B6%E9%97%B4%E8%A7%A3%E9%A2%98%E6%80%9D%E8%B7%AF.pdf)
 
 <img src="assets/1628668115968.png" width="700" align="middle" />
 
@@ -51,11 +51,11 @@
 
 ### 4. 模型说明
 
-- [DCN蒸馏模型](https://github.com/ben1234560/AiLearning-Theory-Applying/tree/master/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AB%9E%E8%B5%9B%E5%AE%9E%E6%88%98_%E4%BC%98%E8%83%9C%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/%E6%BB%B4%E6%BB%B4%E2%80%94%E2%80%94%E9%A2%84%E4%BC%B0%E5%88%B0%E8%BE%BE%E6%97%B6%E9%97%B4/DCN_12953)
+- [DCN蒸馏模型](https://github.com/ben1234560/AiLearning-Theory-Applying/tree/master/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AB%9E%E8%B5%9B%E5%AE%9E%E6%88%98_%E4%BC%98%E8%83%9C%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/ACM%20SIGSPATIAL%202021%20GISCUP/DCN%E8%92%B8%E9%A6%8F_12953)
   - ![1628669063602](assets/1628669063602.png)
-- [WDR模型](https://github.com/ben1234560/AiLearning-Theory-Applying/tree/master/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AB%9E%E8%B5%9B%E5%AE%9E%E6%88%98_%E4%BC%98%E8%83%9C%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/%E6%BB%B4%E6%BB%B4%E2%80%94%E2%80%94%E9%A2%84%E4%BC%B0%E5%88%B0%E8%BE%BE%E6%97%B6%E9%97%B4/WD_128544)
+- [WDR模型](https://github.com/ben1234560/AiLearning-Theory-Applying/tree/master/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AB%9E%E8%B5%9B%E5%AE%9E%E6%88%98_%E4%BC%98%E8%83%9C%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/ACM%20SIGSPATIAL%202021%20GISCUP/WD_128544)
   - ![1628669073291](assets/1628669073291.png)
-- LGB模型
+- [LGB模型](https://github.com/ben1234560/AiLearning-Theory-Applying/tree/master/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AB%9E%E8%B5%9B%E5%AE%9E%E6%88%98_%E4%BC%98%E8%83%9C%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/ACM%20SIGSPATIAL%202021%20GISCUP/LGB_13700)
   - ![1628669152380](assets/1628669152380.png)
 
 
@@ -83,11 +83,11 @@
 
 - [DCN蒸馏_12953](https://github.com/ben1234560/AiLearning-Theory-Applying/tree/master/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AB%9E%E8%B5%9B%E5%AE%9E%E6%88%98_%E4%BC%98%E8%83%9C%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/%E6%BB%B4%E6%BB%B4%E2%80%94%E2%80%94%E9%A2%84%E4%BC%B0%E5%88%B0%E8%BE%BE%E6%97%B6%E9%97%B4/DCN_12953)
   - DCN蒸馏模型（利用“未来”数据），线上分数0.12953
-  - dcn_model/[dcn_model.py](https://github.com/ben1234560/AiLearning-Theory-Applying/blob/master/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AB%9E%E8%B5%9B%E5%AE%9E%E6%88%98_%E4%BC%98%E8%83%9C%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/%E6%BB%B4%E6%BB%B4%E2%80%94%E2%80%94%E9%A2%84%E4%BC%B0%E5%88%B0%E8%BE%BE%E6%97%B6%E9%97%B4/DCN_12953/dcn_model/dcn_model.py)：模型代码
-  - dcn_model/[main.py](https://github.com/ben1234560/AiLearning-Theory-Applying/blob/master/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AB%9E%E8%B5%9B%E5%AE%9E%E6%88%98_%E4%BC%98%E8%83%9C%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/%E6%BB%B4%E6%BB%B4%E2%80%94%E2%80%94%E9%A2%84%E4%BC%B0%E5%88%B0%E8%BE%BE%E6%97%B6%E9%97%B4/DCN_12953/dcn_model/main.py)：主函数，训练和预测
-  - dcn_model/[process.py](https://github.com/ben1234560/AiLearning-Theory-Applying/blob/master/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AB%9E%E8%B5%9B%E5%AE%9E%E6%88%98_%E4%BC%98%E8%83%9C%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/%E6%BB%B4%E6%BB%B4%E2%80%94%E2%80%94%E9%A2%84%E4%BC%B0%E5%88%B0%E8%BE%BE%E6%97%B6%E9%97%B4/DCN_12953/dcn_model/process.py)：特征预处理
-  - dcn_model/[model_h5](https://github.com/ben1234560/AiLearning-Theory-Applying/tree/master/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AB%9E%E8%B5%9B%E5%AE%9E%E6%88%98_%E4%BC%98%E8%83%9C%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/%E6%BB%B4%E6%BB%B4%E2%80%94%E2%80%94%E9%A2%84%E4%BC%B0%E5%88%B0%E8%BE%BE%E6%97%B6%E9%97%B4/DCN_12953/model_h5)：存放处理信息，不影响模型结果
-- [WD_128544](https://github.com/ben1234560/AiLearning-Theory-Applying/tree/master/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AB%9E%E8%B5%9B%E5%AE%9E%E6%88%98_%E4%BC%98%E8%83%9C%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/%E6%BB%B4%E6%BB%B4%E2%80%94%E2%80%94%E9%A2%84%E4%BC%B0%E5%88%B0%E8%BE%BE%E6%97%B6%E9%97%B4/WD_128544)
+  - dcn_model/[dcn_model.py](https://github.com/ben1234560/AiLearning-Theory-Applying/blob/master/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AB%9E%E8%B5%9B%E5%AE%9E%E6%88%98_%E4%BC%98%E8%83%9C%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/ACM%20SIGSPATIAL%202021%20GISCUP/DCN%E8%92%B8%E9%A6%8F_12953/dcn_model/dcn_model.py)：模型代码
+  - dcn_model/[main.py](https://github.com/ben1234560/AiLearning-Theory-Applying/blob/master/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AB%9E%E8%B5%9B%E5%AE%9E%E6%88%98_%E4%BC%98%E8%83%9C%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/ACM%20SIGSPATIAL%202021%20GISCUP/DCN%E8%92%B8%E9%A6%8F_12953/dcn_model/main.py)：主函数，训练和预测
+  - dcn_model/[process.py](https://github.com/ben1234560/AiLearning-Theory-Applying/blob/master/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AB%9E%E8%B5%9B%E5%AE%9E%E6%88%98_%E4%BC%98%E8%83%9C%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/ACM%20SIGSPATIAL%202021%20GISCUP/DCN%E8%92%B8%E9%A6%8F_12953/dcn_model/process.py)：特征预处理
+  - dcn_model/[model_h5](https://github.com/ben1234560/AiLearning-Theory-Applying/tree/master/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AB%9E%E8%B5%9B%E5%AE%9E%E6%88%98_%E4%BC%98%E8%83%9C%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/ACM%20SIGSPATIAL%202021%20GISCUP/DCN%E8%92%B8%E9%A6%8F_12953/model_h5)：存放处理信息，不影响模型结果
+- [WD_128544](https://github.com/ben1234560/AiLearning-Theory-Applying/tree/master/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AB%9E%E8%B5%9B%E5%AE%9E%E6%88%98_%E4%BC%98%E8%83%9C%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/ACM%20SIGSPATIAL%202021%20GISCUP/WD_128544)
   - WD模型，线上分数0.128544
   - 其他同上
 
