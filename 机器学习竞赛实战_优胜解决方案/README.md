@@ -2,7 +2,7 @@
 
 相关数据集可在[全部数据集下载地址.txt](https://github.com/ben1234560/AiLearning-Theory-Applying/blob/master/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AB%9E%E8%B5%9B%E5%AE%9E%E6%88%98_%E4%BC%98%E8%83%9C%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/%E5%85%A8%E9%83%A8%E6%95%B0%E6%8D%AE%E9%9B%86%E4%B8%8B%E8%BD%BD%E5%9C%B0%E5%9D%80.txt)下载
 
-### 难度由上至下递增
+### 赛题难度由上至下递增
 
 - [信用卡欺诈检测](https://github.com/ben1234560/AiLearning-Theory-Applying/tree/master/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AB%9E%E8%B5%9B%E5%AE%9E%E6%88%98_%E4%BC%98%E8%83%9C%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/%E4%BF%A1%E7%94%A8%E5%8D%A1%E6%AC%BA%E8%AF%88%E6%A3%80%E6%B5%8B)
   - INFO: 逻辑回归、分类任务、预测0/1
@@ -16,6 +16,8 @@
   - INFO: RNN网络、时间序数据、冠军方案
 - [Indoor Location & Navigation](https://github.com/ben1234560/AiLearning-Theory-Applying/tree/master/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AB%9E%E8%B5%9B%E5%AE%9E%E6%88%98_%E4%BC%98%E8%83%9C%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/Indoor%20Location%20%26%20Navigation)
   - INFO: 回归+分类、后处理、博主Top2%/19th
+- [第三届阿里云磐久智维算法大赛](https://github.com/ben1234560/AiLearning-Theory-Applying/tree/master/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AB%9E%E8%B5%9B%E5%AE%9E%E6%88%98_%E4%BC%98%E8%83%9C%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/%E7%AC%AC%E4%B8%89%E5%B1%8A%E9%98%BF%E9%87%8C%E4%BA%91%E7%A3%90%E4%B9%85%E6%99%BA%E7%BB%B4%E7%AE%97%E6%B3%95%E5%A4%A7%E8%B5%9B)
+  - INFO: 多分类、NLP、时序、博主Top1%/亚军
 - [ACM SIGSPATIAL 2021 GISCUP-预估到达时间](https://github.com/ben1234560/AiLearning-Theory-Applying/tree/master/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AB%9E%E8%B5%9B%E5%AE%9E%E6%88%98_%E4%BC%98%E8%83%9C%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/ACM%20SIGSPATIAL%202021%20GISCUP)
   - INFO：时空域模型、DCN-蒸馏+WD+LGB、博主Top1%/7th
 
