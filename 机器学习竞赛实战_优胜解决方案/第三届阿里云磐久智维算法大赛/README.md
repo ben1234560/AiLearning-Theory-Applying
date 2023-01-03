@@ -10,5 +10,9 @@
 
 ### 终榜亚军
 
-<img src="assets/亚军盖章.jpg" alt="亚军盖章" title="亚军盖章" width="150"  height = "300" />
+<img src="assets/亚军盖章.jpg" alt="亚军盖章" title="亚军盖章" width="250"  height = "350" />
+
+
+
+
 
