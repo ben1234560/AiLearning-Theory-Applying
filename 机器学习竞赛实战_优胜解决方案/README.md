@@ -16,7 +16,7 @@
   - INFO: 模型流程、多模型比较及可视化、预测得分
 - [快手短视频用户活跃度分析](https://github.com/ben1234560/AiLearning-Theory-Applying/tree/master/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AB%9E%E8%B5%9B%E5%AE%9E%E6%88%98_%E4%BC%98%E8%83%9C%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/%E5%BF%AB%E6%89%8B%E7%9F%AD%E8%A7%86%E9%A2%91%E7%94%A8%E6%88%B7%E6%B4%BB%E8%B7%83%E5%BA%A6%E5%88%86%E6%9E%90)
   - INFO: RNN网络、时间序数据、冠军方案
-- [ACM SIGSPATIAL 2021 GISCUP-预估到达时间](https://github.com/ben1234560/AiLearning-Theory-Applying/tree/master/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AB%9E%E8%B5%9B%E5%AE%9E%E6%88%98_%E4%BC%98%E8%83%9C%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/ACM%20SIGSPATIAL%202021%20GISCUP)
+- [ACM SIGSPATIAL 2021预估到达时间](https://github.com/ben1234560/AiLearning-Theory-Applying/tree/master/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AB%9E%E8%B5%9B%E5%AE%9E%E6%88%98_%E4%BC%98%E8%83%9C%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/ACM%20SIGSPATIAL%202021%20GISCUP)
   - INFO：时空域模型、DCN-蒸馏+WD+LGB、博主Top1%/7th
 - [Indoor Location & Navigation](https://github.com/ben1234560/AiLearning-Theory-Applying/tree/master/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AB%9E%E8%B5%9B%E5%AE%9E%E6%88%98_%E4%BC%98%E8%83%9C%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/Indoor%20Location%20%26%20Navigation)
   - INFO: 回归+分类、后处理、博主Top2%/19th
