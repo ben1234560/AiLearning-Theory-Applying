@@ -82,7 +82,7 @@
 
 <img src="/Users/xueweiguo/Desktop/GitHub/AiLearning-Theory-Applying/assets/image-20240421212923027.png" alt="语义关系学习" style="zoom:50%;" />
 
-向量传入后，通过语义关系学习（一系列计算），得出一个矩阵，维度是4 × 4的矩阵。矩阵里的每个值都是数字，数字代表了文字对应其它文字的语义关系，越高表示与其它文字的关系越近，越小则表示越疏远。
+向量传入后，通过语义关系学习（一系列计算，点积/内积的方法），得出一个矩阵，维度是4 × 4的矩阵。矩阵里的每个值都是数字，数字代表了文字对应其它文字的语义关系，越高表示与其它文字的关系越近，越小则表示越疏远。
 
 > 为什么数字越大表示关系越近，现在可以简单理解，就是每个词的查询向量（Q）会与序列中所有单词的键（K）向量进行点积运算，得到一个分数，这个分数经过softmax函数处理后，就变成了注意力权重。即每个词都有跟全部词的向量结果，越大表示语义关系越紧密，权重越低则表示关系越疏远。
 >
@@ -98,9 +98,27 @@
 
 将语义关系学习里输出的矩阵，加上残差（输入语义关系学习）前的向量，再进行值的统一缩放，大部分情况下是缩放到[-1,1]区间。
 
-![数值缩放](../assets/image-20240424171227926.png)
+<img src="../assets/image-20240424171227926.png" alt="数值缩放" style="zoom:50%;" />
 
 Add & Norm的过程可以理解为相同位置元素相加，再做层归一化（Layer Normalization），即如果残差连接的A矩阵是3维的，多头注意力输出的B矩阵也会是3维的，而且两者一定是同Size，即A矩阵是(None, 4, 768)，B矩阵肯定也是(None, 4, 768)，两者同位置的如`A[i][j][k]=0.1`，`B[i][j][k]=0.2`，则相加是0.3，再去进行归一化。层归一化后面我们会详解。
 
 
+
+### 前馈神经网络
+
+> WHAT：数学上，对于每个位置的输入向量`x`，FFNN可以表示为：
+>
+> ~~~
+> FFNN(x) = max(0, xW1 + b1)W2 + b2
+> ~~~
+>
+> 其中`W1`和`W2`是权重矩阵，`b1`和`b2`是偏置项，`max(0,·)`是ReLU激活函数。
+>
+> WHY：多头注意力层（语义关系学习）是线性的，这意味着它们可能不足以捕捉复杂的数据模式。前馈神经网络通过引入非线性激活函数，增强了模型的能力，使其能够学习更加复杂的函数映射等。且最重要的是每个神经元的输出仅依赖于当前层的输入，这使得计算可以并行化，从而提高了模型的训练和推理效率。
+>
+> 感兴趣的同学，可以去这个网址玩玩[A Neural Network Playground](https://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=4,2&seed=0.53882&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false)
+
+<img src="/Users/xueweiguo/Desktop/GitHub/AiLearning-Theory-Applying/assets/image-20240424204837275.png" alt="前馈神经网络" style="zoom:50%;" />
+
+当数据输入到神经网络后，经过一系列运算（点积），输出的数据一般是非线形的。而且维度输出的维度与输入的维度是不变的。种设计允许FFN在不改变输入和输出维度的情况下，增加网络的非线性和复杂性，从而使模型能够学习更加复杂的特征表示。
 
