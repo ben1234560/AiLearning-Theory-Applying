@@ -124,7 +124,7 @@ Add & Norm的过程可以理解为相同位置元素相加，再做层归一化�
 >
 > 感兴趣的同学，可以去这个网址玩玩[A Neural Network Playground](https://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=4,2&seed=0.53882&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false)
 
-<img src="/Users/xueweiguo/Desktop/GitHub/AiLearning-Theory-Applying/assets/image-20240424204837275.png" alt="前馈神经网络" style="zoom:50%;" />
+<img src="../assets/image-20240424204837275.png" alt="前馈神经网络" style="zoom:50%;" />
 
 当数据输入到神经网络后，经过一系列运算（点积），输出的数据一般是非线形的。而且维度输出的维度与输入的维度是不变的。种设计允许FFN在不改变输入和输出维度的情况下，增加网络的非线性和复杂性，从而使模型能够学习更加复杂的特征表示。
 
