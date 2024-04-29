@@ -3,6 +3,8 @@
 ### 总体架构图
 
 > 这个阶段主要是有个大概认识，你可能会觉得模糊或不能理解的，后面会对每个模块进行详解，也欢迎给我留issue探讨。
+>
+> [论文地址](https://arxiv.org/pdf/1706.03762)
 
 <img src="../assets/image-20240421134206905.png" alt="总体架构图" style="zoom:50%;" />
 
@@ -33,7 +35,7 @@
 根据我们上面了解到的，不同的部分其实可以针对不同的任务。
 
 - BERT（Bidirectional Encoder Representations from Transformers）是只使用了编码器（Encoder）的模型，一般用于抽样式问答 或者 做命名实体识别，如从给定的文本段落中找到并提取出回答问题的文本片段。目标是识别或检索信息，而不是生成新的文本序列。
-- GPT（Generative Pretrained Transformer）是只使用了解码器的模型，被设计用于生成文本。但是里面的Mask改成了因果masking（causal masking），即不像原始那样隐藏一句话中的某个词，而是它只能看到前面的词，而不能看到后面的。
+- GPT（Generative Pretrained Transformer）是只使用了解码器的模型，被设计用于生成文本。但是里面的Mask改成了因果masking（causal masking），即不像原始那样隐藏一句话中的某个词，而是它只能看到前面的词，而不能看到后面的。[GPT-2源码地址](https://github.com/openai/gpt-2)
 - 机器翻译，则需要编码器处理源语言文本，解码器生成目标语言文本。即整个Transofmer。
 
 当你更加深入理解模型，你也能创造出更多的可能性。
