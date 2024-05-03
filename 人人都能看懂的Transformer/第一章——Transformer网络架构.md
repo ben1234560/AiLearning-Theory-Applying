@@ -8,7 +8,7 @@
 >
 > [官方代码](https://www.tensorflow.org/tutorials/text/transformer?hl=zh-cn)
 
-<img src="../assets/image-20240421134206905.png" alt="总体架构图" style="zoom:50%;" />
+<img src="../assets/image-20240421134206905.png" alt="总体架构图" style="zoom:30%;" />
 
 > WHAT：自注意力机制模型，顾名思义，它能够自己找到不同位置的依赖关系。如在序列的任何位置直接计算出 与 其他位置的依赖关系，从而有效捕捉长距离依赖。以及位置编码等关键组成。
 >
