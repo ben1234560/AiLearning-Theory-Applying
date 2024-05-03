@@ -8,8 +8,6 @@
 >
 > [官方代码](https://www.tensorflow.org/tutorials/text/transformer?hl=zh-cn)
 
-<img src="../assets/image-20240421134206905.png" alt="总体架构图" style="zoom:50%;" />
-
 <img src="../assets/image-20240421134206905.png" alt="总体架构图" width="500"/>
 
 > WHAT：自注意力机制模型，顾名思义，它能够自己找到不同位置的依赖关系。如在序列的任何位置直接计算出 与 其他位置的依赖关系，从而有效捕捉长距离依赖。以及位置编码等关键组成。
@@ -50,9 +48,7 @@
 
 > WHY：由于现在GPT是最主流的方向，所以后续主要讲decoder，encoder的架构也跟decoder差不多，理解了decoder也就理解了encoder。
 
-
-
-<img src="../assets/image-20240421161038387.png" alt="汉化decoder" style="zoom:50%;" />
+<img src="../assets/image-20240421161038387.png" alt="汉化decoder" width="500" />
 
 通过上面的英文转中文，大家应该也能理解大致意思，也就是文字会向量化 加上 位置信息编码，输入到多头注意力机制里，去学习语义关系，通过数值缩放再到神经网络层。数值缩放后被线性映射，最后输出成百分比概率，概率越大的就越可能是最终预测输出的文字。
 
@@ -88,7 +84,7 @@
 >
 > WHY：捕捉多种语义关系，提高模型的表达能力。如LLM是大模型的缩写，同时也是法学硕士的缩写。亦或者冬天里的能穿多少穿多少，跟夏天里的能穿多少穿多少。
 
-<img src="../assets/image-20240421212923027.png" alt="语义关系学习" style="zoom:50%;" />
+<img src="../assets/image-20240421212923027.png" alt="语义关系学习" width="500" />
 
 向量传入后，通过语义关系学习（一系列计算，点积/内积的方法），得出一个矩阵，维度是4 × 4的矩阵。矩阵里的每个值都是数字，数字代表了文字对应其它文字的语义关系，越高表示与其它文字的关系越近，越小则表示越疏远。
 
@@ -106,7 +102,7 @@
 
 将语义关系学习里输出的矩阵，加上残差（输入语义关系学习）前的向量，再进行值的统一缩放，大部分情况下是缩放到[-1,1]区间。
 
-<img src="../assets/image-20240424171227926.png" alt="数值缩放" style="zoom:50%;" />
+<img src="../assets/image-20240424171227926.png" alt="数值缩放" width="500" />
 
 Add & Norm的过程可以理解为相同位置元素相加，再做层归一化（Layer Normalization），即如果残差连接的A矩阵是3维的，多头注意力输出的B矩阵也会是3维的，而且两者一定是同Size，即A矩阵是(None, 4, 768)，B矩阵肯定也是(None, 4, 768)，两者同位置的如`A[i][j][k]=0.1`，`B[i][j][k]=0.2`，则相加是0.3，再去进行归一化。层归一化后面我们会详解。
 
@@ -128,7 +124,7 @@ Add & Norm的过程可以理解为相同位置元素相加，再做层归一化�
 >
 > 感兴趣的同学，可以去这个网址玩玩[A Neural Network Playground](https://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=4,2&seed=0.53882&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false)
 
-<img src="../assets/image-20240424204837275.png" alt="前馈神经网络" style="zoom:50%;" />
+<img src="../assets/image-20240424204837275.png" alt="前馈神经网络" width="500" />
 
 当数据输入到神经网络后，经过一系列运算（点积），输出的数据一般是非线形的。而且维度输出的维度与输入的维度是不变的。种设计允许FFN在不改变输入和输出维度的情况下，增加网络的非线性和复杂性，从而使模型能够学习更加复杂的特征表示。
 
@@ -144,7 +140,7 @@ Add & Norm的过程可以理解为相同位置元素相加，再做层归一化�
 
 > Linear
 
-<img src="../assets/image-20240503172310152.png" alt="image-20240503172310152" style="zoom:50%;" />
+<img src="../assets/image-20240503172310152.png" alt="image-20240503172310152" width="500" />
 
 前面数据经过最后一次缩放后，线形变换用于前者的输出，映射到一个词汇表大小的向量上，并选举出最大可能性的词或句子作为最终输出
 
