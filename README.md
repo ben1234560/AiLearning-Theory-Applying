@@ -26,7 +26,7 @@
             <li><a href='https://github.com/ben1234560/AiLearning-Theory-Applying/blob/master/%E5%BF%85%E5%A4%87%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80.md#kmeans%E7%AE%97%E6%B3%95'>KMEANS算法</a>
             <li><a href='https://github.com/ben1234560/AiLearning-Theory-Applying/blob/master/%E5%BF%85%E5%A4%87%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80.md#%E8%B4%9D%E5%8F%B6%E6%96%AF%E5%88%86%E6%9E%90'>贝叶斯分析</a>
         </ul>
-		<li><a href='https://github.com/ben1234560/AiLearning-Theory-Applying/blob/master/%E4%BA%BA%E4%BA%BA%E9%83%BD%E8%83%BD%E7%9C%8B%E6%87%82%E7%9A%84Transformer/README.md'>人人都能看懂的Transformer</a> 
+		<li><a href='https://github.com/ben1234560/AiLearning-Theory-Applying/tree/master/%E4%BA%BA%E4%BA%BA%E9%83%BD%E8%83%BD%E7%9C%8B%E6%87%82%E7%9A%84Transformer'>人人都能看懂的Transformer</a> 
 	  <ul>
                <li><a href='https://github.com/ben1234560/AiLearning-Theory-Applying/blob/master/%E4%BA%BA%E4%BA%BA%E9%83%BD%E8%83%BD%E7%9C%8B%E6%87%82%E7%9A%84Transformer/%E7%AC%AC%E4%B8%80%E7%AB%A0%E2%80%94%E2%80%94Transformer%E7%BD%91%E7%BB%9C%E6%9E%B6%E6%9E%84.md'>第一章——Transformer网络架构</a></li>
                 <li><a href='https://github.com/ben1234560/AiLearning-Theory-Applying/blob/master/%E4%BA%BA%E4%BA%BA%E9%83%BD%E8%83%BD%E7%9C%8B%E6%87%82%E7%9A%84Transformer/%E7%AC%AC%E4%BA%8C%E7%AB%A0%E2%80%94%E2%80%94%E6%96%87%E5%AD%97%E5%90%91%E9%87%8F%E5%8C%96.md'>第二章——文字向量化</a>
