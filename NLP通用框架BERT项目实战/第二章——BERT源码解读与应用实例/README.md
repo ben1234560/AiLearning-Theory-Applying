@@ -2,7 +2,7 @@
 
 [BERT开源框架地址](<https://github.com/google-research/bert>)，最好读下README，以下是预训练好的BERT模型，这里用到两个
 
-![1609825905750](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1609825905750.png)
+![image-20240517172005425](assets/image-20240517172005425.png)
 
 > 点击即可下载，里面内容如下
 
