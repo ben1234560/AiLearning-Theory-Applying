@@ -68,7 +68,7 @@ $$
 ## 
 
 $$
-P(e r r)=1-\sum_{c \in \mathcal{Y}} P(c | \boldsymbol{x}) P(c | \boldsymbol{z})
+cos(\theta) =  \frac{A矩阵*B矩阵}{A长度*B长度}
 $$
 
 等同于
