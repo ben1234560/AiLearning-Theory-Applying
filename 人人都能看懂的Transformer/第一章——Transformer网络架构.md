@@ -4,9 +4,11 @@
 
 > 这个阶段主要是有个大概认识，你可能会觉得模糊或不能理解的，后面会对每个模块进行详解，也欢迎给我留issue探讨。
 >
-> [论文地址](https://arxiv.org/pdf/1706.03762)
+> [Attention Is All You Need 论文地址](https://arxiv.org/pdf/1706.03762)
 >
-> [官方代码](https://www.tensorflow.org/tutorials/text/transformer?hl=zh-cn)
+> [GPT-2 官方代码](https://www.tensorflow.org/tutorials/text/transformer?hl=zh-cn)
+>
+> [动态图解 nanoGPT](https://bbycroft.net/llm)
 
 <img src="../assets/image-20240421134206905.png" alt="总体架构图" width="550"/>
 
