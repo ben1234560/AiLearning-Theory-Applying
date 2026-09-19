@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="440" viewBox="0 0 520 440">
+<rect width="520" height="440" fill="white"/>
+<text x="25" y="30" font-family="sans-serif" font-size="18">Chapter 2: 2D coordinate transform</text>
+<line x1="100" y1="370" x2="470" y2="370" stroke="#555" stroke-width="2"/>
+<line x1="100" y1="400" x2="100" y2="50" stroke="#555" stroke-width="2"/>
+<text x="475" y="375" font-family="sans-serif">xA</text>
+<text x="92" y="45" font-family="sans-serif">yA</text>
+<circle cx="100" cy="370" r="5" fill="#555"/>
+<text x="108" y="389" font-family="sans-serif">Origin A (0,0)</text>
+<circle cx="340.0" cy="290.0" r="7" fill="#e67e22"/>
+<text x="352.0" y="278.0" font-family="sans-serif">Origin B (3,1)</text>
+<line x1="340.0" y1="290.0" x2="260.0" y2="130.0" stroke="#2980b9" stroke-width="2" stroke-dasharray="6 5"/>
+<circle cx="260.0" cy="130.0" r="8" fill="#2980b9"/>
+<text x="272.0" y="130.0" font-family="sans-serif">Point pA = (2,3)</text>
+<line x1="260.0" y1="130.0" x2="260.0" y2="50.0" stroke="#27ae60" stroke-width="3"/>
+<polygon points="260.0,43.0 254.0,57.0 266.0,57.0" fill="#27ae60"/>
+<text x="272.0" y="50.0" font-family="sans-serif">Delta pA = (0,1)</text>
+<text x="25" y="420" font-family="sans-serif" font-size="12" fill="#666">Geometry illustration; not a robot workspace.</text>
+</svg>
