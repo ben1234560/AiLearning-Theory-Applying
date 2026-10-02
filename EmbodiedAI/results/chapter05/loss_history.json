@@ -1,0 +1,107 @@
+[
+  {
+    "step": 0,
+    "batch_noise_mse": null,
+    "validation_noise_mse": 0.9819340705871582
+  },
+  {
+    "step": 100,
+    "batch_noise_mse": 0.16397511959075928,
+    "validation_noise_mse": 0.15493887662887573
+  },
+  {
+    "step": 200,
+    "batch_noise_mse": 0.08974280953407288,
+    "validation_noise_mse": 0.09727343916893005
+  },
+  {
+    "step": 300,
+    "batch_noise_mse": 0.05462753027677536,
+    "validation_noise_mse": 0.07409393042325974
+  },
+  {
+    "step": 400,
+    "batch_noise_mse": 0.08559180796146393,
+    "validation_noise_mse": 0.06646588444709778
+  },
+  {
+    "step": 500,
+    "batch_noise_mse": 0.05521722882986069,
+    "validation_noise_mse": 0.06014583259820938
+  },
+  {
+    "step": 600,
+    "batch_noise_mse": 0.046271998435258865,
+    "validation_noise_mse": 0.05511137843132019
+  },
+  {
+    "step": 700,
+    "batch_noise_mse": 0.0629580169916153,
+    "validation_noise_mse": 0.05422088876366615
+  },
+  {
+    "step": 800,
+    "batch_noise_mse": 0.05196917802095413,
+    "validation_noise_mse": 0.05045988783240318
+  },
+  {
+    "step": 900,
+    "batch_noise_mse": 0.053886812180280685,
+    "validation_noise_mse": 0.05083071440458298
+  },
+  {
+    "step": 1000,
+    "batch_noise_mse": 0.04709421098232269,
+    "validation_noise_mse": 0.04655641317367554
+  },
+  {
+    "step": 1100,
+    "batch_noise_mse": 0.04678129777312279,
+    "validation_noise_mse": 0.042791932821273804
+  },
+  {
+    "step": 1200,
+    "batch_noise_mse": 0.051530271768569946,
+    "validation_noise_mse": 0.04300898313522339
+  },
+  {
+    "step": 1300,
+    "batch_noise_mse": 0.03004181943833828,
+    "validation_noise_mse": 0.037498049437999725
+  },
+  {
+    "step": 1400,
+    "batch_noise_mse": 0.039710238575935364,
+    "validation_noise_mse": 0.0341787114739418
+  },
+  {
+    "step": 1500,
+    "batch_noise_mse": 0.03264540806412697,
+    "validation_noise_mse": 0.031362384557724
+  },
+  {
+    "step": 1600,
+    "batch_noise_mse": 0.03778189793229103,
+    "validation_noise_mse": 0.02962893433868885
+  },
+  {
+    "step": 1700,
+    "batch_noise_mse": 0.023282673209905624,
+    "validation_noise_mse": 0.027560748159885406
+  },
+  {
+    "step": 1800,
+    "batch_noise_mse": 0.05467578396201134,
+    "validation_noise_mse": 0.0255031306296587
+  },
+  {
+    "step": 1900,
+    "batch_noise_mse": 0.02352791093289852,
+    "validation_noise_mse": 0.02525220438838005
+  },
+  {
+    "step": 2000,
+    "batch_noise_mse": 0.030125398188829422,
+    "validation_noise_mse": 0.023969274014234543
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "purpose": "Actual exploratory runs, not the final held-out evaluation. No robot success rate measured.",
+  "common_settings": {"seed": 7, "exploratory_initial_conditions_seed": 9, "test_samples": 256, "noise_steps": 100, "batch_size": 256},
+  "selection_note": "The cosine schedule and 2000 training steps were fixed for a short teaching demo. Final evaluation uses fresh initial-condition seed 1009, reported in metrics.json. These exploratory examples were not reused for that final test.",
+  "runs": [
+    {"schedule": "linear beta=0.0001 to 0.2", "train_steps": 2000, "best_step": 2000, "best_validation_noise_mse": 0.02279227040708065, "exploratory_action_mse": 0.30361586809158325, "exploratory_shuffled_condition_action_mse": 0.46047988533973694, "train_seconds": 2.052947457996197},
+    {"schedule": "linear beta=0.0001 to 0.2", "train_steps": 10000, "best_step": 8900, "best_validation_noise_mse": 0.009443117305636406, "exploratory_action_mse": 0.17707811295986176, "exploratory_shuffled_condition_action_mse": 0.4107811748981476, "train_seconds": 6.438473917020019},
+    {"schedule": "cosine s=0.008 beta_max=0.999", "train_steps": 2000, "best_step": 2000, "best_validation_noise_mse": 0.023969274014234543, "exploratory_action_mse": 0.14016158878803253, "exploratory_shuffled_condition_action_mse": 0.444282591342926, "train_seconds": 1.290594250021968},
+    {"schedule": "cosine s=0.008 beta_max=0.999", "train_steps": 10000, "best_step": 8900, "best_validation_noise_mse": 0.006585502997040749, "exploratory_action_mse": 0.14373211562633514, "exploratory_shuffled_condition_action_mse": 0.3952442407608032, "train_seconds": 7.079995624953881}
+  ]
+}
