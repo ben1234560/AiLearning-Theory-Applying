@@ -1,0 +1,78 @@
+{
+  "verification_scope": "static_config_inspection_only; no model inference",
+  "model_id": "lerobot/smolvla_base",
+  "revision": "d9f33c94a60fb382c90dea2164c96845bd955e28",
+  "n_obs_steps": 1,
+  "configured_input_shapes_for_batch_1": {
+    "observation.state": [
+      1,
+      6
+    ],
+    "observation.images.camera1": [
+      1,
+      3,
+      256,
+      256
+    ],
+    "observation.images.camera2": [
+      1,
+      3,
+      256,
+      256
+    ],
+    "observation.images.camera3": [
+      1,
+      3,
+      256,
+      256
+    ]
+  },
+  "language_task_key": "task",
+  "configured_token_ids_shape_for_batch_1": [
+    1,
+    48
+  ],
+  "configured_action_chunk_shape_for_batch_1": [
+    1,
+    50,
+    6
+  ],
+  "configured_single_action_shape_for_batch_1": [
+    1,
+    6
+  ],
+  "internal_max_action_dim": 32,
+  "chunk_size": 50,
+  "n_action_steps": 50,
+  "internal_generation_steps": 10,
+  "normalization_mapping": {
+    "VISUAL": "IDENTITY",
+    "STATE": "MEAN_STD",
+    "ACTION": "MEAN_STD"
+  },
+  "resize_imgs_with_padding": [
+    512,
+    512
+  ],
+  "config_image_keys": [
+    "observation.images.camera1",
+    "observation.images.camera2",
+    "observation.images.camera3"
+  ],
+  "processor_image_keys": [
+    "observation.image2",
+    "observation.image",
+    "observation.image3"
+  ],
+  "camera_key_sets_match": false,
+  "postprocessor_steps": [
+    "unnormalizer_processor",
+    "device_processor"
+  ],
+  "action_semantics": "not determined by shape; consult target robot/dataset metadata",
+  "snapshot_sha256": {
+    "config.json": "650584b56c104720f7a3c91d1ec6bec9e8de8ac11e60c92ba2fa82d93eda147d",
+    "policy_preprocessor.json": "7683d648280a72f0d51e869fb8dd1596beed90b7f84849330cf1bc26634a4bd6",
+    "policy_postprocessor.json": "2b78bb742065288df2ec63b0ee35f97a1f6950171cf2272f7e34b1fe3873b17b"
+  }
+}

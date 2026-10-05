@@ -1,0 +1,266 @@
+{
+  "type": "hand_coded_interface_demo_no_vla_training_or_inference",
+  "randomness": "none; all inputs and rules deterministic",
+  "device": "CPU",
+  "python": "3.11.9",
+  "numpy": "2.3.1",
+  "matplotlib": "3.10.3",
+  "platform": "macOS-14.4.1-arm64-arm-64bit",
+  "machine": "arm64",
+  "H": 4,
+  "E": 2,
+  "gain": 0.5,
+  "limit_per_axis": 0.2,
+  "position_semantics": "x-right/y-up normalized workspace [0,1]^2; dimensionless",
+  "action_semantics": "2D displacement per abstract step in workspace units; each axis in [-0.2,0.2]",
+  "step_duration": "one abstract time unit; not calibrated to robot seconds",
+  "shapes": {
+    "image_HWC": [
+      101,
+      101,
+      3
+    ],
+    "position": [
+      2
+    ],
+    "visual_features": [
+      2,
+      2
+    ],
+    "language_one_hot": [
+      2
+    ],
+    "selected_goal": [
+      2
+    ],
+    "action_chunk": [
+      4,
+      2
+    ],
+    "executed_actions": [
+      2,
+      2
+    ]
+  },
+  "controlled_factor": "instruction only",
+  "number_of_cases": 2,
+  "repetitions_per_case": 1,
+  "runs": [
+    {
+      "instruction": "move to red",
+      "language_one_hot": [
+        1.0,
+        0.0
+      ],
+      "pixel_centers_red_blue": [
+        [
+          75.0,
+          50.0
+        ],
+        [
+          25.0,
+          25.0
+        ]
+      ],
+      "targets_red_blue": [
+        [
+          0.75,
+          0.5
+        ],
+        [
+          0.25,
+          0.75
+        ]
+      ],
+      "initial_position": [
+        0.25,
+        0.5
+      ],
+      "selected_goal": [
+        0.75,
+        0.5
+      ],
+      "action_chunk": [
+        [
+          0.2,
+          0.0
+        ],
+        [
+          0.15,
+          0.0
+        ],
+        [
+          0.07500000000000001,
+          0.0
+        ],
+        [
+          0.03749999999999998,
+          0.0
+        ]
+      ],
+      "executed_actions": [
+        [
+          0.2,
+          0.0
+        ],
+        [
+          0.15,
+          0.0
+        ]
+      ],
+      "executed_positions": [
+        [
+          0.25,
+          0.5
+        ],
+        [
+          0.45,
+          0.5
+        ],
+        [
+          0.6,
+          0.5
+        ]
+      ],
+      "position_after_two_steps": [
+        0.6,
+        0.5
+      ],
+      "replanned_chunk": [
+        [
+          0.07500000000000001,
+          0.0
+        ],
+        [
+          0.03749999999999998,
+          0.0
+        ],
+        [
+          0.01874999999999999,
+          0.0
+        ],
+        [
+          0.009375000000000022,
+          0.0
+        ]
+      ],
+      "distance_before": 0.5,
+      "distance_after_two_steps": 0.15000000000000002
+    },
+    {
+      "instruction": "move to blue",
+      "language_one_hot": [
+        0.0,
+        1.0
+      ],
+      "pixel_centers_red_blue": [
+        [
+          75.0,
+          50.0
+        ],
+        [
+          25.0,
+          25.0
+        ]
+      ],
+      "targets_red_blue": [
+        [
+          0.75,
+          0.5
+        ],
+        [
+          0.25,
+          0.75
+        ]
+      ],
+      "initial_position": [
+        0.25,
+        0.5
+      ],
+      "selected_goal": [
+        0.25,
+        0.75
+      ],
+      "action_chunk": [
+        [
+          0.0,
+          0.125
+        ],
+        [
+          0.0,
+          0.0625
+        ],
+        [
+          0.0,
+          0.03125
+        ],
+        [
+          0.0,
+          0.015625
+        ]
+      ],
+      "executed_actions": [
+        [
+          0.0,
+          0.125
+        ],
+        [
+          0.0,
+          0.0625
+        ]
+      ],
+      "executed_positions": [
+        [
+          0.25,
+          0.5
+        ],
+        [
+          0.25,
+          0.625
+        ],
+        [
+          0.25,
+          0.6875
+        ]
+      ],
+      "position_after_two_steps": [
+        0.25,
+        0.6875
+      ],
+      "replanned_chunk": [
+        [
+          0.0,
+          0.03125
+        ],
+        [
+          0.0,
+          0.015625
+        ],
+        [
+          0.0,
+          0.0078125
+        ],
+        [
+          0.0,
+          0.00390625
+        ]
+      ],
+      "distance_before": 0.25,
+      "distance_after_two_steps": 0.0625
+    }
+  ],
+  "controlled_failure": {
+    "change": "remove_red_target_only",
+    "instruction": "move to red",
+    "rejected": true,
+    "error": "Missing red target; no action produced",
+    "actions": null
+  },
+  "compute_seconds_excluding_plots_io": 0.0012135830475017428,
+  "total_seconds_before_json_write": 0.21114245802164078,
+  "limitations": [
+    "Rules and fixed command lookup; no learned semantics or generalization evidence",
+    "Idealized static targets and exact position observations; no contact physics",
+    "Euclidean distances are illustrative; no robot task success rate measured"
+  ]
+}

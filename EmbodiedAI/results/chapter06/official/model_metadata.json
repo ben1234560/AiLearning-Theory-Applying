@@ -1,0 +1,71 @@
+{
+  "id": "lerobot/smolvla_base",
+  "sha": "d9f33c94a60fb382c90dea2164c96845bd955e28",
+  "lastModified": "2026-09-17T09:37:40.000Z",
+  "safetensors": {
+    "parameters": {
+      "F32": 3273552,
+      "BF16": 446772624
+    },
+    "total": 450046176
+  },
+  "cardData": {
+    "language": [
+      "en"
+    ],
+    "library_name": "lerobot",
+    "license": "apache-2.0",
+    "pipeline_tag": "robotics",
+    "tags": [
+      "vision-language-action",
+      "imitation-learning",
+      "lerobot"
+    ],
+    "inference": false
+  },
+  "files": [
+    {
+      "path": ".gitattributes",
+      "size": 1573
+    },
+    {
+      "path": "Finetune_SmolVLA_notebook.ipynb",
+      "size": 6757
+    },
+    {
+      "path": "README.md",
+      "size": 4625
+    },
+    {
+      "path": "collage_small.gif",
+      "size": 8009386
+    },
+    {
+      "path": "config.json",
+      "size": 2299
+    },
+    {
+      "path": "model.safetensors",
+      "size": 906712520
+    },
+    {
+      "path": "policy_postprocessor.json",
+      "size": 660
+    },
+    {
+      "path": "policy_postprocessor_step_0_unnormalizer_processor.safetensors",
+      "size": 640
+    },
+    {
+      "path": "policy_preprocessor.json",
+      "size": 1872
+    },
+    {
+      "path": "policy_preprocessor_step_5_normalizer_processor.safetensors",
+      "size": 640
+    }
+  ],
+  "checked_date": "2026-10-04",
+  "source": "https://huggingface.co/api/models/lerobot/smolvla_base?blobs=true",
+  "note": "Metadata only; model weights were not downloaded."
+}
