@@ -1,0 +1,87 @@
+{
+  "date": "2026-10-05",
+  "chapters": [
+    {
+      "file": "第二章——机器人如何表示位置与动作.md",
+      "sha256": "fbd6900490f3deab8f844288c1ddf250e9bc788b67b839febc2dd8a8808ae0bb",
+      "display_math": 21,
+      "inline_math": 118,
+      "github_all_recognized": true,
+      "mathjax_rendered": 139,
+      "mathjax_errors": []
+    },
+    {
+      "file": "第四章——从单步动作到动作序列.md",
+      "sha256": "83af6569eb8ec160e241f88a1f23ae3568aefb0d09e860fdd66ac0fd439782b7",
+      "display_math": 7,
+      "inline_math": 101,
+      "github_all_recognized": true,
+      "mathjax_rendered": 108,
+      "mathjax_errors": []
+    },
+    {
+      "file": "第三章——机器人如何从示范中学习.md",
+      "sha256": "e27eba20c8664c7f1b33f19daf18149fdf5000648c2e725f0ee7ccd4afc38424",
+      "display_math": 32,
+      "inline_math": 64,
+      "github_all_recognized": true,
+      "mathjax_rendered": 96,
+      "mathjax_errors": []
+    },
+    {
+      "file": "第一章——具身智能到底在做什么.md",
+      "sha256": "2ef5104ba298ca3625d81d7ecd2344fbc010584d901761ec8c1f56504b391f84",
+      "display_math": 12,
+      "inline_math": 61,
+      "github_all_recognized": true,
+      "mathjax_rendered": 73,
+      "mathjax_errors": []
+    },
+    {
+      "file": "第五章——Diffusion Policy 如何生成动作.md",
+      "sha256": "d792ebe491d2bf572b3d0e4e6106550a35d03d760e7da8b1b01ebd798695e093",
+      "display_math": 10,
+      "inline_math": 76,
+      "github_all_recognized": true,
+      "mathjax_rendered": 86,
+      "mathjax_errors": []
+    },
+    {
+      "file": "第六章——VLA 如何连接视觉、语言与动作.md",
+      "sha256": "b8a9b5f74416e5afc8eaa53bc9cf8b104188fe9b1a3ffab5f067f66b7b148e30",
+      "display_math": 7,
+      "inline_math": 44,
+      "github_all_recognized": true,
+      "mathjax_rendered": 51,
+      "mathjax_errors": []
+    },
+    {
+      "file": "第七章——跑通一个完整仿真任务.md",
+      "sha256": "a50f450c87759118dc65924d5b6b66c916c02b61532b97193d54cfce87ab6d40",
+      "display_math": 3,
+      "inline_math": 18,
+      "github_all_recognized": true,
+      "mathjax_rendered": 21,
+      "mathjax_errors": []
+    },
+    {
+      "file": "第八章——判断机器人到底学会了什么.md",
+      "sha256": "5089d850b4c1fbd3ef83c5137c928ec3a4b2c6cebe6b1564372e3d6e8d43e837",
+      "display_math": 4,
+      "inline_math": 27,
+      "github_all_recognized": true,
+      "mathjax_rendered": 31,
+      "mathjax_errors": []
+    }
+  ],
+  "display_math_total": 96,
+  "inline_math_total": 509,
+  "local_mathjax_rendered_total": 605,
+  "missing_local_links": [],
+  "note": "Formula counts exclude literal dollar-delimiter examples inside code. GitHub API identifies math; local MathJax checks parsing. Uploaded GitHub pages are not yet visually reviewed.",
+  "real_simulation_episodes": 20,
+  "paired_conditions": "E8/E4 with 10 fixed matched seeds",
+  "cloud_deleted": true,
+  "cloud_actual_charge_cny": 1.19,
+  "learner_mastery_not_inferred_from_author_verification": true
+}

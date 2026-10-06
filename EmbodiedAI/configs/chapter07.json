@@ -1,0 +1,16 @@
+{
+  "environment": "gym_pusht/PushT-v0",
+  "model_repo": "lerobot/diffusion_pusht",
+  "model_revision": "84a7c23178445c6bbf7e1a884ff497017910f653",
+  "lerobot_commit": "3c0a209f9fac4d2a57617e686a7f2a2309144ba2",
+  "seeds": [1000, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1008, 1009],
+  "execution_horizons": [8, 4],
+  "max_steps": 300,
+  "denoising_steps": 100,
+  "prediction_window": 16,
+  "observation_history": 2,
+  "policy_seed_rule": "100000 + environment_seed * 1000 + replan_environment_step",
+  "success_threshold": 0.95,
+  "success_comparison": ">",
+  "evaluation_scope": "Small paired simulation demonstration; no statistical generalization claim"
+}

@@ -1,0 +1,4 @@
+# Tested on Python 3.11.9 (Apple M1/MPS). Torch/torchvision must be a matched pair.
+torch==2.12.1
+torchvision==0.27.1
+-r requirements-chapter07-core.txt

@@ -1,0 +1,11 @@
+{
+  "lerobot_commit": "3c0a209f9fac4d2a57617e686a7f2a2309144ba2",
+  "lerobot_license": "Apache-2.0",
+  "model_repo": "lerobot/diffusion_pusht",
+  "model_revision": "84a7c23178445c6bbf7e1a884ff497017910f653",
+  "model_license": "Apache-2.0",
+  "source_path": "/root/.cache/embodiedai-chapter07/lerobot-3c0a209f9fac4d2a57617e686a7f2a2309144ba2",
+  "model_path": "/root/.cache/embodiedai-chapter07/model",
+  "weights_bytes": 1050862408,
+  "weights_sha256": "995d14d35db57d95c35ad9704c3d79c8612b7bc45f3877e5c46c2cdc516856a8"
+}

@@ -1,0 +1,209 @@
+{
+  "source": "https://datasets-server.huggingface.co/first-rows?dataset=lerobot%2Fpusht&config=default&split=train",
+  "rows": [
+    {
+      "row_idx": 0,
+      "row": {
+        "observation.state": [
+          222.0,
+          97.0
+        ],
+        "action": [
+          233.0,
+          71.0
+        ],
+        "episode_index": 0,
+        "frame_index": 0,
+        "timestamp": 0.0,
+        "next.reward": 0.19029748439788818,
+        "next.done": false,
+        "next.success": false,
+        "index": 0,
+        "task_index": 0
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 1,
+      "row": {
+        "observation.state": [
+          225.2523956298828,
+          89.31253051757812
+        ],
+        "action": [
+          229.0,
+          83.0
+        ],
+        "episode_index": 0,
+        "frame_index": 1,
+        "timestamp": 0.10000000149011612,
+        "next.reward": 0.19029748439788818,
+        "next.done": false,
+        "next.success": false,
+        "index": 1,
+        "task_index": 0
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 2,
+      "row": {
+        "observation.state": [
+          227.5923309326172,
+          84.53437805175781
+        ],
+        "action": [
+          229.0,
+          86.0
+        ],
+        "episode_index": 0,
+        "frame_index": 2,
+        "timestamp": 0.20000000298023224,
+        "next.reward": 0.19029748439788818,
+        "next.done": false,
+        "next.success": false,
+        "index": 2,
+        "task_index": 0
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 3,
+      "row": {
+        "observation.state": [
+          228.420166015625,
+          84.27986145019531
+        ],
+        "action": [
+          230.0,
+          86.0
+        ],
+        "episode_index": 0,
+        "frame_index": 3,
+        "timestamp": 0.30000001192092896,
+        "next.reward": 0.19029748439788818,
+        "next.done": false,
+        "next.success": false,
+        "index": 3,
+        "task_index": 0
+      },
+      "truncated_cells": []
+    },
+    {
+      "row_idx": 4,
+      "row": {
+        "observation.state": [
+          229.04222106933594,
+          84.95709991455078
+        ],
+        "action": [
+          239.0,
+          89.0
+        ],
+        "episode_index": 0,
+        "frame_index": 4,
+        "timestamp": 0.4000000059604645,
+        "next.reward": 0.19029748439788818,
+        "next.done": false,
+        "next.success": false,
+        "index": 4,
+        "task_index": 0
+      },
+      "truncated_cells": []
+    }
+  ],
+  "features": [
+    {
+      "feature_idx": 0,
+      "name": "observation.state",
+      "type": {
+        "feature": {
+          "dtype": "float32",
+          "_type": "Value"
+        },
+        "length": 2,
+        "_type": "List"
+      }
+    },
+    {
+      "feature_idx": 1,
+      "name": "action",
+      "type": {
+        "feature": {
+          "dtype": "float32",
+          "_type": "Value"
+        },
+        "length": 2,
+        "_type": "List"
+      }
+    },
+    {
+      "feature_idx": 2,
+      "name": "episode_index",
+      "type": {
+        "dtype": "int64",
+        "_type": "Value"
+      }
+    },
+    {
+      "feature_idx": 3,
+      "name": "frame_index",
+      "type": {
+        "dtype": "int64",
+        "_type": "Value"
+      }
+    },
+    {
+      "feature_idx": 4,
+      "name": "timestamp",
+      "type": {
+        "dtype": "float32",
+        "_type": "Value"
+      }
+    },
+    {
+      "feature_idx": 5,
+      "name": "next.reward",
+      "type": {
+        "dtype": "float32",
+        "_type": "Value"
+      }
+    },
+    {
+      "feature_idx": 6,
+      "name": "next.done",
+      "type": {
+        "dtype": "bool",
+        "_type": "Value"
+      }
+    },
+    {
+      "feature_idx": 7,
+      "name": "next.success",
+      "type": {
+        "dtype": "bool",
+        "_type": "Value"
+      }
+    },
+    {
+      "feature_idx": 8,
+      "name": "index",
+      "type": {
+        "dtype": "int64",
+        "_type": "Value"
+      }
+    },
+    {
+      "feature_idx": 9,
+      "name": "task_index",
+      "type": {
+        "dtype": "int64",
+        "_type": "Value"
+      }
+    }
+  ],
+  "retrieved_date": "2026-10-05",
+  "source_dataset_revision_at_retrieval": "7628202a2180972f291ba1bc6723834921e72c19",
+  "license": "MIT",
+  "sampling_note": "First five chronological rows only; API returns non-video columns. Not a train/test partition or a training run."
+}

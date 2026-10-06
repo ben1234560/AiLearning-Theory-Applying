@@ -1,0 +1,9 @@
+{
+  "device": "mps",
+  "batch10_seconds": 23.2608312500015,
+  "single_warm_block_seconds_approx": 6.5,
+  "denoising_steps": 100,
+  "uses_actual_policy_on_dummy_inputs": true,
+  "not_a_task_evaluation": true,
+  "used_for_formal_evaluation": false
+}

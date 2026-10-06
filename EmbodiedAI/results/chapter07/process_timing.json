@@ -1,0 +1,8 @@
+{
+  "evaluation_process_wall_seconds": 1690.4339047339745,
+  "start_utc": "2026-10-05T08:37:18.039317+00:00",
+  "end_utc": "2026-10-05T09:05:28.473268+00:00",
+  "method": "Linux /proc start_ticks + monotonic watcher",
+  "watcher_resolution_seconds": 1,
+  "excludes_environment_install_and_weight_download": true
+}

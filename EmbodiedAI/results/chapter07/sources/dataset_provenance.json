@@ -1,0 +1,23 @@
+{
+  "repo": "lerobot/pusht",
+  "revision": "7628202a2180972f291ba1bc6723834921e72c19",
+  "cardData": {
+    "license": "mit",
+    "task_categories": [
+      "robotics"
+    ],
+    "tags": [
+      "LeRobot"
+    ],
+    "configs": [
+      {
+        "config_name": "default",
+        "data_files": "data/*/*.parquet"
+      }
+    ]
+  },
+  "source": "https://huggingface.co/datasets/lerobot/pusht",
+  "retrieved_date": "2026-10-05",
+  "first_rows_api_is_snapshot_not_revision_addressed": true,
+  "training_dataset_revision_not_proven_to_equal_current_snapshot": true
+}

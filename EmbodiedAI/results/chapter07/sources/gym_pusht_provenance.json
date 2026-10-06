@@ -1,0 +1,18 @@
+{
+  "package": "gym-pusht",
+  "version": "0.1.5",
+  "source": "https://pypi.org/project/gym-pusht/0.1.5/",
+  "license": "Apache-2.0",
+  "distributions": [
+    {
+      "filename": "gym_pusht-0.1.5-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/a4/cf/6b92e0b42b14e0aef108ab56c77a3caad661008bd109d6f856d6c2f8acca/gym_pusht-0.1.5-py3-none-any.whl",
+      "sha256": "d9e3ba5f44916dc4a802d71764b08f4e7e09bda256e25af9dda16e9364dc777f"
+    },
+    {
+      "filename": "gym_pusht-0.1.5.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/57/ef/45056f81ba2a7567289ce5f9e1806654ab4d4df469ee527a52637b81834a/gym_pusht-0.1.5.tar.gz",
+      "sha256": "981e135f6e0ca91e4ec63603e9551bc77cba989d06a2888ed31a1d68f7cbdae2"
+    }
+  ]
+}

@@ -1,0 +1,346 @@
+{
+  "analysis_type": "Read-only aggregation of actually recorded simulation episodes",
+  "input_path": "results/chapter07/evaluation.json",
+  "input_sha256": "e4382dd1642dc1f45d4256e53eb140824a8e473ce9793fc62c7c109f22675ae0",
+  "trajectories_checked": 20,
+  "source_metadata": {
+    "date": "2026-10-05",
+    "training_performed_here": false,
+    "model_repo": "lerobot/diffusion_pusht",
+    "model_revision": "84a7c23178445c6bbf7e1a884ff497017910f653",
+    "lerobot_commit": "3c0a209f9fac4d2a57617e686a7f2a2309144ba2",
+    "model_license": "Apache-2.0",
+    "weights_sha256": "995d14d35db57d95c35ad9704c3d79c8612b7bc45f3877e5c46c2cdc516856a8",
+    "weights_bytes": 1050862408,
+    "parameters": 262709044,
+    "device": "cuda",
+    "platform": "Linux-5.15.0-176-generic-x86_64-with-glibc2.39",
+    "python": "3.11.13",
+    "hardware": "x86_64",
+    "gpu_name": "NVIDIA GeForce RTX 4090",
+    "cuda_version": "12.8",
+    "inference_dtype": "float32",
+    "amp_enabled": false,
+    "cudnn_deterministic": true,
+    "tf32_enabled": false,
+    "versions": {
+      "torch": "2.7.1+cu128",
+      "torchvision": "0.22.1+cu128",
+      "gym-pusht": "0.1.5",
+      "gymnasium": "0.29.1",
+      "pymunk": "6.11.1",
+      "diffusers": "0.32.2",
+      "draccus": "0.9.3",
+      "numpy": "2.3.1",
+      "huggingface-hub": "1.24.0",
+      "safetensors": "0.8.0"
+    },
+    "filtered_runtime_config_fields": {
+      "device": "cuda",
+      "use_amp": false,
+      "type": "diffusion"
+    },
+    "seeds": [
+      1000,
+      1001,
+      1002,
+      1003,
+      1004,
+      1005,
+      1006,
+      1007,
+      1008,
+      1009
+    ],
+    "execution_horizons": [
+      8,
+      4
+    ],
+    "max_steps": 300,
+    "denoising_steps": 100,
+    "scheduler": "DDPM",
+    "prediction_window": 16,
+    "observation_history": 2,
+    "success_threshold": 0.95,
+    "success_comparison": ">",
+    "reward_formula": "clip(coverage / 0.95, 0, 1)",
+    "coverage_formula": "area(block intersection goal) / area(goal)",
+    "action_semantics": "Absolute 2-D pusher target position in [0,512] scene units, 0.1 simulation seconds per action",
+    "policy_seed_rule": "100000 + environment_seed * 1000 + replan_environment_step",
+    "command": "demo/chapter07_pusht.py --device cuda",
+    "completed_episodes": 20
+  },
+  "summary": [
+    {
+      "condition": "E8",
+      "episodes": 10,
+      "successes": 7,
+      "success_rate": 0.7,
+      "wilson95": [
+        0.39677321997956516,
+        0.892210712513788
+      ],
+      "mean_max_coverage": 0.9078737237682836,
+      "mean_final_coverage": 0.9075851959468464,
+      "mean_steps": 193.4,
+      "mean_elapsed_seconds": 44.28431552527472,
+      "seeds": [
+        1000,
+        1001,
+        1002,
+        1003,
+        1004,
+        1005,
+        1006,
+        1007,
+        1008,
+        1009
+      ]
+    },
+    {
+      "condition": "E4",
+      "episodes": 10,
+      "successes": 2,
+      "success_rate": 0.2,
+      "wilson95": [
+        0.056680947980693314,
+        0.5098431532792765
+      ],
+      "mean_max_coverage": 0.9138015587261128,
+      "mean_final_coverage": 0.910880415564461,
+      "mean_steps": 278.8,
+      "mean_elapsed_seconds": 123.39788131397218,
+      "seeds": [
+        1000,
+        1001,
+        1002,
+        1003,
+        1004,
+        1005,
+        1006,
+        1007,
+        1008,
+        1009
+      ]
+    }
+  ],
+  "paired_comparison": {
+    "first_condition": "E8",
+    "second_condition": "E4",
+    "direction": "second minus first",
+    "pairs": [
+      {
+        "seed": 1000,
+        "first_success": true,
+        "second_success": false,
+        "first_max_coverage": 0.9691399054392921,
+        "second_max_coverage": 0.9068113805983842,
+        "delta_max_coverage": -0.062328524840907895,
+        "delta_final_coverage": -0.09153995645742574
+      },
+      {
+        "seed": 1001,
+        "first_success": true,
+        "second_success": false,
+        "first_max_coverage": 0.9568238612116388,
+        "second_max_coverage": 0.933394954898803,
+        "delta_max_coverage": -0.023428906312835784,
+        "delta_final_coverage": -0.023428906312835784
+      },
+      {
+        "seed": 1002,
+        "first_success": true,
+        "second_success": false,
+        "first_max_coverage": 0.958949572971155,
+        "second_max_coverage": 0.9186550530297553,
+        "delta_max_coverage": -0.040294519941399765,
+        "delta_final_coverage": -0.040294519941399765
+      },
+      {
+        "seed": 1003,
+        "first_success": true,
+        "second_success": false,
+        "first_max_coverage": 0.9598484844800879,
+        "second_max_coverage": 0.8654608292549967,
+        "delta_max_coverage": -0.09438765522509118,
+        "delta_final_coverage": -0.09438765522509118
+      },
+      {
+        "seed": 1004,
+        "first_success": false,
+        "second_success": true,
+        "first_max_coverage": 0.9287781549551488,
+        "second_max_coverage": 0.9647653396870561,
+        "delta_max_coverage": 0.03598718473190732,
+        "delta_final_coverage": 0.03598718473190732
+      },
+      {
+        "seed": 1005,
+        "first_success": true,
+        "second_success": false,
+        "first_max_coverage": 0.955870092107698,
+        "second_max_coverage": 0.9380929652444937,
+        "delta_max_coverage": -0.017777126863204318,
+        "delta_final_coverage": -0.017777126863204318
+      },
+      {
+        "seed": 1006,
+        "first_success": false,
+        "second_success": true,
+        "first_max_coverage": 0.9441914221641255,
+        "second_max_coverage": 0.9624603829503015,
+        "delta_max_coverage": 0.018268960786175903,
+        "delta_final_coverage": 0.021154239000546693
+      },
+      {
+        "seed": 1007,
+        "first_success": true,
+        "second_success": false,
+        "first_max_coverage": 0.95346782833755,
+        "second_max_coverage": 0.9254030258459454,
+        "delta_max_coverage": -0.02806480249160459,
+        "delta_final_coverage": -0.02806480249160459
+      },
+      {
+        "seed": 1008,
+        "first_success": true,
+        "second_success": false,
+        "first_max_coverage": 0.9711080730278274,
+        "second_max_coverage": 0.9122323850970114,
+        "delta_max_coverage": -0.05887568793081599,
+        "delta_final_coverage": -0.05887568793081599
+      },
+      {
+        "seed": 1009,
+        "first_success": false,
+        "second_success": false,
+        "first_max_coverage": 0.48055984298831095,
+        "second_max_coverage": 0.8107392706543801,
+        "delta_max_coverage": 0.33017942766606917,
+        "delta_final_coverage": 0.33017942766606917
+      }
+    ],
+    "mean_delta_max_coverage": 0.005927834957829286,
+    "mean_delta_final_coverage": 0.003295219617614581,
+    "first_only_success": 7,
+    "second_only_success": 2,
+    "both_success": 0,
+    "both_failure": 1,
+    "interpretation_limit": "One fixed checkpoint, backend and seed suite; no population causal claim or training generalization proof."
+  },
+  "paired_prefix_check": {
+    "expected_shared_actions": 4,
+    "absolute_tolerance": 1e-05,
+    "checks": [
+      {
+        "seed": 1000,
+        "executed_prefix_steps": 4,
+        "initial_state_max_abs_difference": 0.0,
+        "prefix_action_max_abs_difference": 0.0,
+        "prefix_state_max_abs_difference": 0.0,
+        "within_tolerance": true
+      },
+      {
+        "seed": 1001,
+        "executed_prefix_steps": 4,
+        "initial_state_max_abs_difference": 0.0,
+        "prefix_action_max_abs_difference": 0.0,
+        "prefix_state_max_abs_difference": 0.0,
+        "within_tolerance": true
+      },
+      {
+        "seed": 1002,
+        "executed_prefix_steps": 4,
+        "initial_state_max_abs_difference": 0.0,
+        "prefix_action_max_abs_difference": 0.0,
+        "prefix_state_max_abs_difference": 0.0,
+        "within_tolerance": true
+      },
+      {
+        "seed": 1003,
+        "executed_prefix_steps": 4,
+        "initial_state_max_abs_difference": 0.0,
+        "prefix_action_max_abs_difference": 0.0,
+        "prefix_state_max_abs_difference": 0.0,
+        "within_tolerance": true
+      },
+      {
+        "seed": 1004,
+        "executed_prefix_steps": 4,
+        "initial_state_max_abs_difference": 0.0,
+        "prefix_action_max_abs_difference": 0.0,
+        "prefix_state_max_abs_difference": 0.0,
+        "within_tolerance": true
+      },
+      {
+        "seed": 1005,
+        "executed_prefix_steps": 4,
+        "initial_state_max_abs_difference": 0.0,
+        "prefix_action_max_abs_difference": 0.0,
+        "prefix_state_max_abs_difference": 0.0,
+        "within_tolerance": true
+      },
+      {
+        "seed": 1006,
+        "executed_prefix_steps": 4,
+        "initial_state_max_abs_difference": 0.0,
+        "prefix_action_max_abs_difference": 0.0,
+        "prefix_state_max_abs_difference": 0.0,
+        "within_tolerance": true
+      },
+      {
+        "seed": 1007,
+        "executed_prefix_steps": 4,
+        "initial_state_max_abs_difference": 0.0,
+        "prefix_action_max_abs_difference": 0.0,
+        "prefix_state_max_abs_difference": 0.0,
+        "within_tolerance": true
+      },
+      {
+        "seed": 1008,
+        "executed_prefix_steps": 4,
+        "initial_state_max_abs_difference": 0.0,
+        "prefix_action_max_abs_difference": 0.0,
+        "prefix_state_max_abs_difference": 0.0,
+        "within_tolerance": true
+      },
+      {
+        "seed": 1009,
+        "executed_prefix_steps": 4,
+        "initial_state_max_abs_difference": 0.0,
+        "prefix_action_max_abs_difference": 0.0,
+        "prefix_state_max_abs_difference": 0.0,
+        "within_tolerance": true
+      }
+    ],
+    "all_within_tolerance": true,
+    "limit": "Control check only before the first E4 replan; later differences are intended and cannot be uniquely attributed to one internal mechanism."
+  },
+  "failure_case": {
+    "condition": "E8",
+    "seed": 1004,
+    "success": false,
+    "max_coverage": 0.9287781549551488,
+    "final_coverage": 0.9287781549551488,
+    "n_steps": 300,
+    "best_step": 217,
+    "trajectory_path": "results/chapter07/trajectories/E8_seed1004.json",
+    "video_path": "results/chapter07/videos/E8_seed1004.mp4",
+    "frames_plot": "results/chapter08/failure_frames.png",
+    "observed_diagnostics": {
+      "final_minus_max_coverage": 0.0,
+      "final_block_reference_point_distance_to_goal": 1.1938487724229778,
+      "final_wrapped_orientation_error_radians": -0.02930432877821687,
+      "final_wrapped_orientation_error_degrees": -1.679014360455587,
+      "last_20_actions_block_reference_point_displacement": 0.0
+    },
+    "selection_rule": "First failed episode in declared condition order, then increasing seed; not selected by severity.",
+    "diagnosis_limit": "Coverage and geometry identify observed failure; they do not identify a unique root cause inside the model."
+  },
+  "limitations": [
+    "No training performed here",
+    "No retraining-seed comparison",
+    "No hardware safety verification",
+    "Fixed small evaluation suite is not proof of broad generalization"
+  ]
+}

@@ -1,0 +1,137 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting gym-pusht==0.1.5 (from -r requirements-chapter07-core.txt (line 1))
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/a4/cf/6b92e0b42b14e0aef108ab56c77a3caad661008bd109d6f856d6c2f8acca/gym_pusht-0.1.5-py3-none-any.whl (16 kB)
+Collecting gymnasium==0.29.1 (from -r requirements-chapter07-core.txt (line 2))
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/a8/4d/3cbfd81ed84db450dbe73a89afcd8bc405273918415649ac6683356afe92/gymnasium-0.29.1-py3-none-any.whl (953 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 953.9/953.9 kB 6.4 MB/s eta 0:00:00
+Collecting pymunk==6.11.1 (from -r requirements-chapter07-core.txt (line 3))
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/d0/b2/d1d5c164642050ca52cbbd366f90842ee530f178aecc406be32b18460b67/pymunk-6.11.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.1/1.1 MB 38.2 MB/s eta 0:00:00
+Collecting diffusers==0.32.2 (from -r requirements-chapter07-core.txt (line 4))
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/88/c9/2b2e822d871b06605363e52555be5d7ff0996f4eeaf0f7e5fda15adedfbe/diffusers-0.32.2-py3-none-any.whl (3.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.2/3.2 MB 49.0 MB/s eta 0:00:00
+Collecting draccus==0.9.3 (from -r requirements-chapter07-core.txt (line 5))
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/d0/23/bba673e7abe2955ec9518be9efa45dff005f2b191163e818b09e04615190/draccus-0.9.3-py3-none-any.whl (69 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 69.2/69.2 kB 29.9 MB/s eta 0:00:00
+Collecting numpy==2.3.1 (from -r requirements-chapter07-core.txt (line 6))
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/75/c9/9bec03675192077467a9c7c2bdd1f2e922bd01d3a69b15c3a0fdcd8548f6/numpy-2.3.1-cp311-cp311-manylinux_2_28_x86_64.whl (16.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.9/16.9 MB 64.3 MB/s eta 0:00:00
+Collecting opencv-python==5.0.0.93 (from -r requirements-chapter07-core.txt (line 7))
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/cf/4c/c73f828fdbcd37eaf21d08fa852544a3ca7c2dbb3ea76873d64f2ea413d1/opencv_python-5.0.0.93-cp37-abi3-manylinux_2_28_x86_64.whl (73.8 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 73.8/73.8 MB 31.2 MB/s eta 0:00:00
+Collecting pygame==2.6.1 (from -r requirements-chapter07-core.txt (line 8))
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/7a/a1/9ae2852ebd3a7cc7d9ae7ff7919ab983e4a5c1b7a14e840732f23b2b48f6/pygame-2.6.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (14.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 14.0/14.0 MB 70.4 MB/s eta 0:00:00
+Collecting shapely==2.1.2 (from -r requirements-chapter07-core.txt (line 9))
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/13/02/58b0b8d9c17c93ab6340edd8b7308c0c5a5b81f94ce65705819b7416dba5/shapely-2.1.2-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (3.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.1/3.1 MB 105.1 MB/s eta 0:00:00
+Collecting scikit-image==0.26.0 (from -r requirements-chapter07-core.txt (line 10))
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/a5/2a/e71c1a7d90e70da67b88ccc609bd6ae54798d5847369b15d3a8052232f9d/scikit_image-0.26.0-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (13.7 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 13.7/13.7 MB 66.6 MB/s eta 0:00:00
+Collecting imageio==2.37.0 (from -r requirements-chapter07-core.txt (line 11))
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/cb/bd/b394387b598ed84d8d0fa90611a90bee0adc2021820ad5729f7ced74a8e2/imageio-2.37.0-py3-none-any.whl (315 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 315.8/315.8 kB 41.5 MB/s eta 0:00:00
+Collecting imageio-ffmpeg==0.6.0 (from -r requirements-chapter07-core.txt (line 12))
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/a0/2d/43c8522a2038e9d0e7dbdf3a61195ecc31ca576fb1527a528c877e87d973/imageio_ffmpeg-0.6.0-py3-none-manylinux2014_x86_64.whl (29.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 29.5/29.5 MB 51.7 MB/s eta 0:00:00
+Collecting einops==0.8.2 (from -r requirements-chapter07-core.txt (line 13))
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/2a/09/f8d8f8f31e4483c10a906437b4ce31bdf3d6d417b73fe33f1a8b59e34228/einops-0.8.2-py3-none-any.whl (65 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 65.6/65.6 kB 30.5 MB/s eta 0:00:00
+Collecting huggingface-hub==1.24.0 (from -r requirements-chapter07-core.txt (line 14))
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/5f/c3/aeaaf3911d2529614be18d1c8b5496afc185560e76568063d517283318af/huggingface_hub-1.24.0-py3-none-any.whl (771 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 771.9/771.9 kB 75.7 MB/s eta 0:00:00
+Collecting safetensors==0.8.0 (from -r requirements-chapter07-core.txt (line 15))
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/28/50/f203ff3a3ddfe19308efc83c5a3a29ed02bf786732ec35e68bf9162f3365/safetensors-0.8.0-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (516 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 516.0/516.0 kB 77.4 MB/s eta 0:00:00
+Collecting requests==2.32.5 (from -r requirements-chapter07-core.txt (line 16))
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/1e/db/4254e3eabe8020b458f1a747140d32277ec7a271daf1d235b70dc0b4e6e3/requests-2.32.5-py3-none-any.whl (64 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 64.7/64.7 kB 29.9 MB/s eta 0:00:00
+Collecting matplotlib==3.10.3 (from -r requirements-chapter07-core.txt (line 17))
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/e7/e3/c82963a3b86d6e6d5874cbeaa390166458a7f1961bab9feb14d3d1a10f02/matplotlib-3.10.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (8.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 8.6/8.6 MB 76.9 MB/s eta 0:00:00
+Collecting cloudpickle>=1.2.0 (from gymnasium==0.29.1->-r requirements-chapter07-core.txt (line 2))
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/88/39/799be3f2f0f38cc727ee3b4f1445fe6d5e4133064ec2e4115069418a5bb6/cloudpickle-3.1.2-py3-none-any.whl (22 kB)
+Requirement already satisfied: typing-extensions>=4.3.0 in /opt/conda/lib/python3.11/site-packages (from gymnasium==0.29.1->-r requirements-chapter07-core.txt (line 2)) (4.14.0)
+Collecting farama-notifications>=0.0.1 (from gymnasium==0.29.1->-r requirements-chapter07-core.txt (line 2))
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/7c/f0/21f81892e4ed10f4ec3ef2e7cf8635fb76e7c0907c55d0da66be50094760/farama_notifications-0.0.6-py3-none-any.whl (2.9 kB)
+Requirement already satisfied: cffi>=1.17.1 in /opt/conda/lib/python3.11/site-packages (from pymunk==6.11.1->-r requirements-chapter07-core.txt (line 3)) (1.17.1)
+Collecting importlib-metadata (from diffusers==0.32.2->-r requirements-chapter07-core.txt (line 4))
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/b3/55/ecca97ae19075f1fac62def77731e7f535e6c1fb8f92ff08160c5e6dade8/importlib_metadata-9.0.1-py3-none-any.whl (27 kB)
+Requirement already satisfied: filelock in /opt/conda/lib/python3.11/site-packages (from diffusers==0.32.2->-r requirements-chapter07-core.txt (line 4)) (3.18.0)
+Collecting regex!=2019.12.17 (from diffusers==0.32.2->-r requirements-chapter07-core.txt (line 4))
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/8a/70/aa08d1d2b294894b365e5f8ba5380fe3f8546acdb81f10639dfd74209c37/regex-2026.9.29-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (804 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 805.0/805.0 kB 77.1 MB/s eta 0:00:00
+Requirement already satisfied: Pillow in /opt/conda/lib/python3.11/site-packages (from diffusers==0.32.2->-r requirements-chapter07-core.txt (line 4)) (11.0.0)
+Collecting mergedeep~=1.3 (from draccus==0.9.3->-r requirements-chapter07-core.txt (line 5))
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/2c/19/04f9b178c2d8a15b076c8b5140708fa6ffc5601fb6f1e975537072df5b2a/mergedeep-1.3.4-py3-none-any.whl (6.4 kB)
+Requirement already satisfied: pyyaml~=6.0 in /opt/conda/lib/python3.11/site-packages (from draccus==0.9.3->-r requirements-chapter07-core.txt (line 5)) (6.0.2)
+Collecting pyyaml-include~=1.4 (from draccus==0.9.3->-r requirements-chapter07-core.txt (line 5))
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/d5/ca/6a2cc3a73170d10b5af1f1613baa2ed1f8f46f62dd0bfab2bffd2c2fe260/pyyaml_include-1.4.1-py3-none-any.whl (19 kB)
+Collecting toml~=0.10 (from draccus==0.9.3->-r requirements-chapter07-core.txt (line 5))
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/44/6f/7120676b6d73228c96e17f1f794d8ab046fc910d781c8d151120c3f1569e/toml-0.10.2-py2.py3-none-any.whl (16 kB)
+Collecting typing-inspect~=0.9.0 (from draccus==0.9.3->-r requirements-chapter07-core.txt (line 5))
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/65/f3/107a22063bf27bdccf2024833d3445f4eea42b2e598abfbd46f6a63b6cb0/typing_inspect-0.9.0-py3-none-any.whl (8.8 kB)
+Collecting scipy>=1.11.4 (from scikit-image==0.26.0->-r requirements-chapter07-core.txt (line 10))
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/09/7d/af933f0f6e0767995b4e2d705a0665e454d1c19402aa7e895de3951ebb04/scipy-1.17.1-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (35.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 35.3/35.3 MB 45.6 MB/s eta 0:00:00
+Requirement already satisfied: networkx>=3.0 in /opt/conda/lib/python3.11/site-packages (from scikit-image==0.26.0->-r requirements-chapter07-core.txt (line 10)) (3.5)
+Collecting tifffile>=2022.8.12 (from scikit-image==0.26.0->-r requirements-chapter07-core.txt (line 10))
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/1a/e4/e804505f87627cd8cdae9c010c47c4485fd8c1ce31a7dd0ab7fcc4707377/tifffile-2026.3.3-py3-none-any.whl (243 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 244.0/244.0 kB 78.9 MB/s eta 0:00:00
+Requirement already satisfied: packaging>=21 in /opt/conda/lib/python3.11/site-packages (from scikit-image==0.26.0->-r requirements-chapter07-core.txt (line 10)) (25.0)
+Collecting lazy-loader>=0.4 (from scikit-image==0.26.0->-r requirements-chapter07-core.txt (line 10))
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/23/93/4e45e37f26c820216704b36b8e67cc55c490a7abd287a78a26a2c0e21386/lazy_loader-0.6-py3-none-any.whl (8.8 kB)
+Collecting click<9.0.0,>=8.4.2 (from huggingface-hub==1.24.0->-r requirements-chapter07-core.txt (line 14))
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/58/50/6c0d534c5f134586a8e1ba4e330569e32f057e33372ae556463212fb4cd3/click-8.5.0-py3-none-any.whl (125 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 125.3/125.3 kB 50.3 MB/s eta 0:00:00
+Requirement already satisfied: fsspec>=2023.5.0 in /opt/conda/lib/python3.11/site-packages (from huggingface-hub==1.24.0->-r requirements-chapter07-core.txt (line 14)) (2025.5.1)
+Collecting hf-xet<2.0.0,>=1.5.1 (from huggingface-hub==1.24.0->-r requirements-chapter07-core.txt (line 14))
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/67/4e/a28359bf1c1ecf11eba22123168c138698f7cb576ac678f5a2e16cd5da08/hf_xet-1.6.0-cp38-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (4.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.5/4.5 MB 79.5 MB/s eta 0:00:00
+Requirement already satisfied: httpx<1,>=0.23.0 in /opt/conda/lib/python3.11/site-packages (from huggingface-hub==1.24.0->-r requirements-chapter07-core.txt (line 14)) (0.28.1)
+Requirement already satisfied: tqdm>=4.42.1 in /opt/conda/lib/python3.11/site-packages (from huggingface-hub==1.24.0->-r requirements-chapter07-core.txt (line 14)) (4.67.1)
+Requirement already satisfied: charset_normalizer<4,>=2 in /opt/conda/lib/python3.11/site-packages (from requests==2.32.5->-r requirements-chapter07-core.txt (line 16)) (3.4.2)
+Requirement already satisfied: idna<4,>=2.5 in /opt/conda/lib/python3.11/site-packages (from requests==2.32.5->-r requirements-chapter07-core.txt (line 16)) (3.10)
+Requirement already satisfied: urllib3<3,>=1.21.1 in /opt/conda/lib/python3.11/site-packages (from requests==2.32.5->-r requirements-chapter07-core.txt (line 16)) (2.4.0)
+Requirement already satisfied: certifi>=2017.4.17 in /opt/conda/lib/python3.11/site-packages (from requests==2.32.5->-r requirements-chapter07-core.txt (line 16)) (2025.4.26)
+Collecting contourpy>=1.0.1 (from matplotlib==3.10.3->-r requirements-chapter07-core.txt (line 17))
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/5f/4b/6157f24ca425b89fe2eb7e7be642375711ab671135be21e6faa100f7448c/contourpy-1.3.3-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (355 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 355.2/355.2 kB 73.4 MB/s eta 0:00:00
+Collecting cycler>=0.10 (from matplotlib==3.10.3->-r requirements-chapter07-core.txt (line 17))
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/e7/05/c19819d5e3d95294a6f5947fb9b9629efb316b96de511b418c53d245aae6/cycler-0.12.1-py3-none-any.whl (8.3 kB)
+Collecting fonttools>=4.22.0 (from matplotlib==3.10.3->-r requirements-chapter07-core.txt (line 17))
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/c3/e0/ed45f50fe7a7320656ac7dde60f26afa3a92a21e14749135b4c03f3385b7/fonttools-4.66.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (5.4 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.4/5.4 MB 81.8 MB/s eta 0:00:00
+Collecting kiwisolver>=1.3.1 (from matplotlib==3.10.3->-r requirements-chapter07-core.txt (line 17))
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/89/00/05c2d0369ac322d22d5c05f84b5c4a6856fa6207fbae42869108a28f0383/kiwisolver-1.5.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (1.4 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.4/1.4 MB 22.3 MB/s eta 0:00:00
+Collecting pyparsing>=2.3.1 (from matplotlib==3.10.3->-r requirements-chapter07-core.txt (line 17))
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/38/bb/d215ee7c73b61497b28a5503f9f53523f294fcc936762b7caf90e0c1c2b5/pyparsing-3.3.3-py3-none-any.whl (126 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 126.4/126.4 kB 45.7 MB/s eta 0:00:00
+Requirement already satisfied: python-dateutil>=2.7 in /opt/conda/lib/python3.11/site-packages (from matplotlib==3.10.3->-r requirements-chapter07-core.txt (line 17)) (2.9.0.post0)
+Requirement already satisfied: pycparser in /opt/conda/lib/python3.11/site-packages (from cffi>=1.17.1->pymunk==6.11.1->-r requirements-chapter07-core.txt (line 3)) (2.22)
+Requirement already satisfied: anyio in /opt/conda/lib/python3.11/site-packages (from httpx<1,>=0.23.0->huggingface-hub==1.24.0->-r requirements-chapter07-core.txt (line 14)) (4.10.0)
+Requirement already satisfied: httpcore==1.* in /opt/conda/lib/python3.11/site-packages (from httpx<1,>=0.23.0->huggingface-hub==1.24.0->-r requirements-chapter07-core.txt (line 14)) (1.0.9)
+Requirement already satisfied: h11>=0.16 in /opt/conda/lib/python3.11/site-packages (from httpcore==1.*->httpx<1,>=0.23.0->huggingface-hub==1.24.0->-r requirements-chapter07-core.txt (line 14)) (0.16.0)
+Requirement already satisfied: six>=1.5 in /opt/conda/lib/python3.11/site-packages (from python-dateutil>=2.7->matplotlib==3.10.3->-r requirements-chapter07-core.txt (line 17)) (1.17.0)
+Collecting mypy-extensions>=0.3.0 (from typing-inspect~=0.9.0->draccus==0.9.3->-r requirements-chapter07-core.txt (line 5))
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/79/7b/2c79738432f5c924bef5071f933bcc9efd0473bac3b4aa584a6f7c1c8df8/mypy_extensions-1.1.0-py3-none-any.whl (5.0 kB)
+Requirement already satisfied: zipp>=3.20 in /opt/conda/lib/python3.11/site-packages (from importlib-metadata->diffusers==0.32.2->-r requirements-chapter07-core.txt (line 4)) (3.22.0)
+Requirement already satisfied: sniffio>=1.1 in /opt/conda/lib/python3.11/site-packages (from anyio->httpx<1,>=0.23.0->huggingface-hub==1.24.0->-r requirements-chapter07-core.txt (line 14)) (1.3.1)
+Installing collected packages: farama-notifications, toml, safetensors, requests, regex, pyyaml-include, pyparsing, pygame, numpy, mypy-extensions, mergedeep, lazy-loader, kiwisolver, importlib-metadata, imageio-ffmpeg, hf-xet, fonttools, einops, cycler, cloudpickle, click, typing-inspect, tifffile, shapely, scipy, pymunk, opencv-python, imageio, gymnasium, contourpy, scikit-image, matplotlib, huggingface-hub, draccus, gym-pusht, diffusers
+  Attempting uninstall: requests
+    Found existing installation: requests 2.32.3
+    Not uninstalling requests at /opt/conda/lib/python3.11/site-packages, outside environment /root/chapter07/.venv
+    Can't uninstall 'requests'. No files were found to uninstall.
+  Attempting uninstall: numpy
+    Found existing installation: numpy 2.2.6
+    Not uninstalling numpy at /opt/conda/lib/python3.11/site-packages, outside environment /root/chapter07/.venv
+    Can't uninstall 'numpy'. No files were found to uninstall.
+  Attempting uninstall: click
+    Found existing installation: click 8.2.1
+    Not uninstalling click at /opt/conda/lib/python3.11/site-packages, outside environment /root/chapter07/.venv
+    Can't uninstall 'click'. No files were found to uninstall.
+Successfully installed click-8.5.0 cloudpickle-3.1.2 contourpy-1.3.3 cycler-0.12.1 diffusers-0.32.2 draccus-0.9.3 einops-0.8.2 farama-notifications-0.0.6 fonttools-4.66.1 gym-pusht-0.1.5 gymnasium-0.29.1 hf-xet-1.6.0 huggingface-hub-1.24.0 imageio-2.37.0 imageio-ffmpeg-0.6.0 importlib-metadata-9.0.1 kiwisolver-1.5.1 lazy-loader-0.6 matplotlib-3.10.3 mergedeep-1.3.4 mypy-extensions-1.1.0 numpy-2.3.1 opencv-python-5.0.0.93 pygame-2.6.1 pymunk-6.11.1 pyparsing-3.3.3 pyyaml-include-1.4.1 regex-2026.9.29 requests-2.32.5 safetensors-0.8.0 scikit-image-0.26.0 scipy-1.17.1 shapely-2.1.2 tifffile-2026.3.3 toml-0.10.2 typing-inspect-0.9.0
+
+[notice] A new release of pip is available: 24.0 -> 26.2.1
+[notice] To update, run: python -m pip install --upgrade pip

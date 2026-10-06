@@ -1,0 +1,17 @@
+{
+  "executed_sources": [
+    {
+      "file": "results/chapter07/sources/executed_runner.py",
+      "sha256": "f585741babab907e65c4217760bb3420f59db034a18bbbac39da0806651c93d0"
+    },
+    {
+      "file": "results/chapter07/sources/executed_setup.py",
+      "sha256": "a4bf13b640a1a8677e158baf88f2276d372ebe5195d4babde58a5096c00dbba1"
+    }
+  ],
+  "downloaded_archive_sha256": "aabe3a7e98dd43ef1e051bf355b5d678aa17ecad0db91dc62c77947c29c548bd",
+  "current_helper_changes_after_execution": [
+    "setup explicitly requests anonymous public model download; no inference change",
+    "runner records actual Asia/Shanghai date dynamically; no policy/environment change"
+  ]
+}
