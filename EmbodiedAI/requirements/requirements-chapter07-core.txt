@@ -1,0 +1,17 @@
+gym-pusht==0.1.5
+gymnasium==0.29.1
+pymunk==6.11.1
+diffusers==0.32.2
+draccus==0.9.3
+numpy==2.3.1
+opencv-python==5.0.0.93
+pygame==2.6.1
+shapely==2.1.2
+scikit-image==0.26.0
+imageio==2.37.0
+imageio-ffmpeg==0.6.0
+einops==0.8.2
+huggingface-hub==1.24.0
+safetensors==0.8.0
+requests==2.32.5
+matplotlib==3.10.3

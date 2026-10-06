@@ -1,0 +1,5 @@
+# Actual evaluation cloud image: Python 3.11.13, PyTorch 2.7.1+cu128.
+# Existing CUDA Torch installation is preserved if this version is already present.
+torch==2.7.1
+torchvision==0.22.1
+-r requirements-chapter07-core.txt
