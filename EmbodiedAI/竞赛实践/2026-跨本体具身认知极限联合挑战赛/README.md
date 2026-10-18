@@ -2,7 +2,11 @@
 
 2026跨本体具身认知极限联合挑战赛，历史成绩 **17.1028分**（初赛A）。同一策略控制R1 Lite / R1 Pro，无需本赛微调，不读取物体初始世界坐标或逐题路线表。
 
-提交来源与复现边界见 [SCORE.md](SCORE.md)。
+**[历史提交结果下载](https://github.com/ben1234560/AiLearning-Theory-Applying/releases/tag/ccic-v4-17.1028)** · [复现指南](REPRODUCE.md) · [成绩与文件校验](SCORE.md)
+
+![初赛A历史成绩17.1028](assets/score.png)
+
+Release中的[`baseline-v4-OFFICIAL_30X2.zip`](https://github.com/ben1234560/AiLearning-Theory-Applying/releases/download/ccic-v4-17.1028/baseline-v4-OFFICIAL_30X2.zip)约1.92GiB，是历史60格轨迹提交结果；源码位于本目录。从源码重新运行仍需官方题包、固定Runtime和自己的多模态API，不需要旧版本或作者缓存。
 
 ## 方案
 
@@ -15,7 +19,7 @@ flowchart LR
 ```
 
 - VLM每240控制步（2模拟秒）输出手部位移、旋转、夹爪开度和底盘目标速度。
-- 每步使用实测状态重新计算误差，H=X=1；两种机器人共用代码和提示词。
+- 每步使用实测状态重新计算误差，H=X=1（每次返回1步、执行1步）；两种机器人共用代码和提示词。
 - 最近4次计划与实测变化构成短记忆；底盘动作按“目标速度−实测速度”计算。
 - 无本地动作模型或自训权重，**需要外部多模态API**。历史模型为`qwen3.8-omni-flash`。可尝试接入支持当前多图输入、非流式JSON输出和请求参数的兼容服务；Claude/GPT等其他模型的适配与得分尚未验证，更换后需重新评测。
 
@@ -25,24 +29,27 @@ flowchart LR
 
 ## 运行
 
-从[官方比赛页面](https://tianchi.aliyun.com/competition/entrance/532508)取得题包，按 [REPRODUCE.md](REPRODUCE.md) 安装固定环境并配置API。原始数据、运行结果及密钥不随仓库分发。
+进入本比赛目录，从[官方比赛页面](https://tianchi.aliyun.com/competition/entrance/532508)取得题包，按 [REPRODUCE.md](REPRODUCE.md) 安装依赖并配置API。官方题包、模型权重和密钥不随源码分发。
 
-先在CPU检查源码完整性与接口（不调用API、不启动仿真）：
+仅做CPU接口检查时，准备Python3.11并解压官方题包，然后执行（不调用API、不启动仿真）：
 
 ```bash
+python3.11 -m venv "$HOME/.venvs/ccic-v4-cpu"
+source "$HOME/.venvs/ccic-v4-cpu/bin/activate"
+python -m pip install -r requirements.txt
 python tools/check.py --runner /data/robolab-benchmark30-dual-runner-rgb3-20260818-v2
 ```
 
-正式运行30题×2本体并打包（使用已安装的RoboLab环境，参考官方群内提供的镜像）：
+正式运行前，按复现指南安装固定Runtime、切换其Python环境并配置API。下面为单卡30题×2本体的运行及打包入口：
 
 ```bash
 python code/reproduce.py \
   --archive /data/robolab-benchmark30-dual-runner-rgb3-20260818-v2.zip \
   --runtime-source /data/RoboLab \
-  --work /data/v4-full --workers 8 --devices cuda:0 cuda:1 cuda:2 cuda:3
+  --work /data/v4-full --workers 1 --devices cuda:0
 ```
 
-单卡使用`--workers 1 --devices cuda:0`。工作目录必须为空；默认每格7200步。入口只生成正式ZIP，不会上传官网。技术续跑、单格检查及输出位置见[复现指南](REPRODUCE.md)。
+历史四卡并发配置为`--workers 8 --devices cuda:0 cuda:1 cuda:2 cuda:3`。工作目录必须为空；默认每格7200步。入口只生成正式ZIP，不会上传官网。API接入预检、单格检查、技术续跑及输出位置见[复现指南](REPRODUCE.md)。
 
 ## 文件
 

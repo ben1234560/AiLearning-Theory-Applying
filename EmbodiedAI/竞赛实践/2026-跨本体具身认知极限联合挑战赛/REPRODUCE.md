@@ -1,5 +1,15 @@
 # 复现指南
 
+## 获取源码与历史结果
+
+```bash
+git clone --depth 1 https://github.com/ben1234560/AiLearning-Theory-Applying.git
+cd 'AiLearning-Theory-Applying/EmbodiedAI/竞赛实践/2026-跨本体具身认知极限联合挑战赛'
+export CCIC_BASELINE_ROOT="$PWD"
+```
+
+后续命令从本比赛目录运行。历史结果见[Release](https://github.com/ben1234560/AiLearning-Theory-Applying/releases/tag/ccic-v4-17.1028)，它与GitHub自动生成的整个仓库Source code归档不同；重新运行不需要先下载历史结果ZIP。
+
 ## 环境与数据
 
 历史运行：Linux、4×L40S 48GB、Python3.11、RoboLab0.2.1、IsaacSim5.1.0.0、IsaacLab2.3.2.post1。四卡正式运行约6.8小时（含技术重试），不是其他机器的耗时承诺。数据盘至少保留20GiB余量，题包、资产和输出还需额外空间。
@@ -14,7 +24,7 @@
 
 解压一份用于CPU接口测试；`--archive`仍传原始ZIP，运行入口在空目录重新解压。更新题包会被哈希检查拒绝，不可静默替换后沿用17.10分声明。
 
-若只做CPU检查/API预检，不需要安装整个Isaac栈：在仓库根目录执行`python3.11 -m venv .venv`，然后`source .venv/bin/activate`、`pip install -r requirements.txt`，再运行下方检查命令。安装固定Runtime后，正式仿真应切换到`/data/RoboLab/.venv`。
+若只做CPU检查/API预检，不需要安装整个Isaac栈：在本比赛目录执行`python3.11 -m venv "$HOME/.venvs/ccic-v4-cpu"`，然后`source "$HOME/.venvs/ccic-v4-cpu/bin/activate"`、`pip install -r requirements.txt`，再运行下方检查命令。CPU虚拟环境放在源码目录之外。安装固定Runtime后，正式仿真应切换到`/data/RoboLab/.venv`。
 
 历史题包是否仍可从官方入口取得未在本轮重新下载确认；如果只能拿到不同SHA的新题包，应向组委会索取历史包或另建版本验证，不能绕过校验后沿用本版成绩说明。
 
@@ -41,7 +51,7 @@ cd /data/RoboLab
 /data/tools-env/bin/uv venv --python 3.11
 /data/tools-env/bin/uv sync --extra isaac51
 source .venv/bin/activate
-cd /path/to/ccic-rgb3-baseline-v4
+cd "$CCIC_BASELINE_ROOT"
 /data/tools-env/bin/uv pip install --python /data/RoboLab/.venv/bin/python \
   --extra-index-url https://download.pytorch.org/whl/cu128 --index-strategy unsafe-best-match \
   'torch==2.7.0+cu128' 'torchvision==0.22.0+cu128' 'torchaudio==2.7.0+cu128' \
@@ -114,4 +124,4 @@ python code/resume_run.py --work /data/v4-full
 
 `WORK`中的缓存、服务响应和报错日志可能包含账号相关信息，不要整目录公开上传。正常从原始题包运行不需要`--cache`或`--replay-only`；这两个选项仅用于本人持有的同版本私有缓存诊断。
 
-60格必须使用同一run-id、固定策略与模型，经官方收集验证；不能混合多版本轨迹。本仓库不提供历史轨迹、缓存或“无GPU重建历史分数”的路径。
+60格必须使用同一run-id、固定策略与模型，经官方收集验证；不能混合多版本轨迹。源码目录不含历史轨迹或API缓存；历史最终提交ZIP已通过Release单独提供，可核验文件，但不能代替从原始题包重新运行。

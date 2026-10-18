@@ -12,7 +12,7 @@
 发布后，从 GitHub Release 下载 `public_asset_baseline_release.zip`。下载链接固定为：
 
 ```text
-https://github.com/ben1234560/AiLearning-Theory-Applying/releases/latest/download/public_asset_baseline_release.zip
+https://github.com/ben1234560/AiLearning-Theory-Applying/releases/download/embodied-simulation-baseline/public_asset_baseline_release.zip
 ```
 
 解压并进入 Baseline：
