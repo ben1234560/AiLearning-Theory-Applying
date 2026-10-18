@@ -4,8 +4,6 @@
 
 **[历史提交结果下载](https://github.com/ben1234560/AiLearning-Theory-Applying/releases/tag/ccic-v4-17.1028)** · [复现指南](REPRODUCE.md) · [成绩与文件校验](SCORE.md)
 
-![初赛A历史成绩17.1028](assets/score.png)
-
 Release中的[`baseline-v4-OFFICIAL_30X2.zip`](https://github.com/ben1234560/AiLearning-Theory-Applying/releases/download/ccic-v4-17.1028/baseline-v4-OFFICIAL_30X2.zip)约1.92GiB，是历史60格轨迹提交结果；源码位于本目录。从源码重新运行仍需官方题包、固定Runtime和自己的多模态API，不需要旧版本或作者缓存。
 
 ## 方案
