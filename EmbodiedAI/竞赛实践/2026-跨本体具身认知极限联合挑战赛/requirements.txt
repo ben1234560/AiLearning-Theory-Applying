@@ -1,0 +1,7 @@
+# Simulation dependencies are installed separately; see REPRODUCE.md.
+numpy==1.26.0
+requests==2.32.3
+Pillow>=10,<13
+pyzmq>=25,<28
+msgpack==1.1.1
+packaging>=24,<27

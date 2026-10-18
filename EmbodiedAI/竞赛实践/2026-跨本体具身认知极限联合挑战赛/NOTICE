@@ -1,0 +1,17 @@
+CCIC RGB3 Feedback Baseline v4
+Copyright 2026 ben1234560 and contributors
+
+The baseline code is released under Apache-2.0; see LICENSE.
+The sharing edition retains the original v4 policy.py byte for byte.
+
+External dependencies, not included in this repository:
+- Official competition Runner and policy SDK: NVIDIA CORPORATION & AFFILIATES,
+  obtained from the competition package; retain its notices and licenses.
+- NVLabs/RoboLab, commit 0aef241fb088ca21bb4ebd24448940ed56620d17.
+- NVIDIA Isaac Sim, Isaac Lab, and scene assets: their respective licenses apply.
+- NumPy, Requests, Pillow, PyZMQ, MessagePack and Packaging: their respective licenses apply.
+- The external vision-language service and model: provider terms apply.
+
+configure_runtime.py adjusts renderer GPU selection in the installed runtime;
+it does not change tasks, observations, dynamics or the control adapter.
+No third-party runtime, scene asset, model weight or API credential is bundled.

@@ -1,0 +1,80 @@
+{
+  "sharing_edition": "v4-sharing-review-20261016",
+  "source_release": "v4",
+  "policy_id": "rgb3-qwen-closed-loop",
+  "policy_version": "v4",
+  "policy_source_sha256": "0d37c28fa0e85aa86c1d85998b85717aa3fce5d5b1e2522d5c1d4b26dd47ed92",
+  "policy_copied_byte_for_byte": true,
+  "historical_score": 17.1028439153439,
+  "score_source": "author-provided official leaderboard screenshot; version attribution also relies on matching archived submission time",
+  "score_screenshot": "assets/score.png",
+  "historical_submission_sha256": "1c592683ce15aa327e66a7347d381c1cd03a6580282a09fc38f0585d52cf28fd",
+  "official_runner_zip_sha256": "9166b1ea123a0eae25d71bb174c8f70c4b8e46ba403b70e9d324f6a5422bcbc4",
+  "runtime_repository": "https://github.com/NVLabs/RoboLab.git",
+  "runtime_commit": "0aef241fb088ca21bb4ebd24448940ed56620d17",
+  "historical_packages": {
+    "robolab": "0.2.1",
+    "isaacsim": "5.1.0.0",
+    "isaaclab": "2.3.2.post1",
+    "numpy": "1.26.0",
+    "torch": "2.7.0+cu128",
+    "requests": "2.32.3"
+  },
+  "historical_run": {
+    "cells": 60,
+    "technical_valid_cells": 60,
+    "full_success_claimed": false,
+    "step_timeout_cells": 60,
+    "max_steps_per_cell": 7200,
+    "workers": 8,
+    "gpus": "4 x L40S 48GB"
+  },
+  "sharing_changes": [
+    "Default worker count is1; hardware concurrency is configurable.",
+    "Credentials are supplied via environment only; no private endpoint or account file is included.",
+    "Parse CLI before runtime configuration, validate basic CLI inputs.",
+    "Correct escaped newline in the GPU startup .pth hook.",
+    "Add documentation, license, provenance and CPU-only checks.",
+    "Validate runtime commit, clean source/import path and key historical package versions before simulation.",
+    "Fingerprint source/config/model/endpoint for technical resume without saving credentials.",
+    "Add optional CPU-only same-policy API preflight; real requests require --call.",
+    "Include genuine score screenshot and publication/award review notes.",
+    "Declare packaging dependency required by the official policy SDK, found in a clean CPU environment."
+  ],
+  "verification_limits": {
+    "new_gpu_run": false,
+    "new_api_call": false,
+    "docker_build_verified": false,
+    "independent_full_simulation_reproduced": false,
+    "historical_clean_smoke": "RET-011/r1_lite600steps; startup/export only",
+    "clean_cpu_environment_verified": true,
+    "clean_cpu_scope": "New venv without system-site-packages; only requirements.txt and the declared official SDK; no simulator or real API."
+  },
+  "frozen_source_file_sha256": {
+    "policy.py": "0d37c28fa0e85aa86c1d85998b85717aa3fce5d5b1e2522d5c1d4b26dd47ed92",
+    "reproduce.py": "56a6aea7f365ef118ab6b73a448e5f00469b3529066789731d633a8f072f272e",
+    "resume_run.py": "2747194d7ecfd1d6769ca1391a4cb02fc22ff1e1fc488e45e74da86fe98d26d4",
+    "launch_policy.py": "e5d504103bde1d1cac6d5fbdbbfcd769d270c39613e312ef8a1153cd5303c9ba",
+    "configure_runtime.py": "126f706e2f87554e71834b4caa9db165fb730c1f7fa095b47496d8c16d6ce37b",
+    "gpu_isolation.py": "46a893262c42fc693dea5ec0e26caeb8a240a81f9f2fb5386c2472d8ecaa059b"
+  },
+  "submission_score_display": 17.1028,
+  "score_screenshot_sha256": "ff637d51eda796c4db690ed651fa4a03ba7dc517eaa0db1ed866061cd5c851a2",
+  "public_model_access": {
+    "checked_on": "2026-10-16",
+    "documentation": "https://www.alibabacloud.com/help/en/model-studio/qwen-omni",
+    "api_key_guide": "https://www.alibabacloud.com/help/en/model-studio/get-api-key",
+    "public_same_name_model_documented": true,
+    "new_account_live_call_verified": false,
+    "historical_backend_snapshot_pinned": false
+  },
+  "runtime_source_audit": {
+    "public_commit_matches_historical_archive": true,
+    "files_compared": 2599,
+    "transitive_dependencies_fully_locked": false
+  },
+  "parent_release": {
+    "version": "v3",
+    "needed_to_run": false
+  }
+}
